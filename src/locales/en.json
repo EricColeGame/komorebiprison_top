@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the core Komorebi Prison loop: spawn and cell assignment, the daily routine, jobs and income, and how to bank your first reliable tools."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Codes & Free Rewards",
+          "description": "Find out where working Komorebi Prison codes are posted, how to redeem them in the lobby, and which reward types are worth chasing first."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Combat & PvP Basics",
+          "description": "Understand spacing, sound cues, chokepoints, and the five fighting style families before you take your first real fight."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Komorebi Prison."
+          "title": "Escape Planning",
+          "description": "Plan a Komorebi Prison prison escape with recon, tools, disguises, and the timing windows that get you past the perimeter."
         }
       ]
     },
@@ -66,265 +66,339 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Active Codes",
+        "Fighting Styles",
+        "Prison Escape"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "From your first roll call to a reliable income: the core Komorebi Prison loop explained.",
+          "href": "/guide/komorebi-prison-beginner-guide"
         },
         {
           "badge": "Updated",
           "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "description": "How to find, redeem, and verify Komorebi Prison codes before they expire.",
+          "href": "/codes/komorebi-prison-codes"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Fighting Styles",
+          "description": "All five Komorebi Prison style families ranked by skill floor, range, and payoff.",
+          "href": "/combat/komorebi-prison-fighting-styles"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Guide",
+          "title": "Prison Escape",
+          "description": "Recon, tools, conversion, and timing: the four phases of a clean breakout.",
+          "href": "/guide/komorebi-prison-prison-escape"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "badge": "PvP",
+          "title": "PvP Guide",
+          "description": "Sound cues, chokepoints, and squad roles for winning fights inside the facility.",
+          "href": "/guide/komorebi-prison-pvp-guide"
         },
         {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "badge": "Items",
+          "title": "Clothes & Outfits",
+          "description": "Every Komorebi Prison clothes category, unlock route, and customization option.",
+          "href": "/items/komorebi-prison-clothes"
         },
         {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "badge": "Mechanics",
+          "title": "Prisoner Mechanics",
+          "description": "Lifecycle, needs, security levels, and work programs for every prisoner.",
+          "href": "/mechanics/komorebi-prison-prisoners"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Mechanics",
+          "title": "Police & Heat",
+          "description": "Wanted levels, arrests, bail, and how the jail loop actually works.",
+          "href": "/mechanics/komorebi-prison-police"
+        },
+        {
+          "badge": "News",
+          "title": "Updates & News",
+          "description": "Patch notes, community reports, and release signals worth trusting.",
+          "href": "/community/komorebi-prison-updates"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Komorebi Prison?",
       "paragraphs": [
-        "Komorebi Prison is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Komorebi Prison is a multiplayer prison sandbox where every corridor is shared with other players. You spawn into a facility, learn its daily rhythm of roll calls, meals, work shifts, and lockdowns, then use jobs, trading, and reputation to build toward the one goal everyone shares: a clean way out.",
+        "The social layer is what sets it apart. Trust is currency, contraband moves through player networks, and the police and escapee mechanics keep the pressure on. Our wiki covers the beginner loop, fighting styles, escape routes, clothes and styles, prison mechanics, and community updates in one place."
       ],
       "stats": [
-        {
-          "label": "Developer",
-          "value": "Midnight Continent"
-        },
         {
           "label": "Platform",
           "value": "Roblox"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Prison Sandbox"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Players",
+          "value": "Multiplayer"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Core Loop",
+          "value": "Work, Trade, Escape"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Combat",
+          "value": "PvP & Melee"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Endgame",
+          "value": "Prison Escape"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore Komorebi Prison Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore the Komorebi Prison Wiki",
+      "description": "Every core Komorebi Prison system in one place: codes, the beginner loop, fighting styles, escape planning, clothes and styles, prison mechanics, and community updates.",
       "modules": [
         {
           "order": 1,
-          "name": "Komorebi Prison Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
+          "name": "Komorebi Prison Codes",
+          "description": "Where to find verified Komorebi Prison codes, how to redeem them in the lobby, and which reward types are worth your time.",
           "href": "/codes/komorebi-prison-codes",
-          "displayType": "code-box",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "CASH",
+              "detail": "In-game currency drops straight into your balance."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "COSMETICS",
+              "detail": "Outfits, uniforms, and accessories for your character."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "BOOSTS",
+              "detail": "Short-term speed, luck, or payout multipliers."
+            },
+            {
+              "label": "TOKENS",
+              "detail": "Event tokens spendable in limited-time shops."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
+          "name": "Komorebi Prison Beginner Guide",
+          "description": "A five-step Komorebi Prison beginner guide that walks you through your first sessions, from orientation to your first calculated attempt.",
           "href": "/guide/komorebi-prison-beginner-guide",
-          "displayType": "feature-cards",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "1",
+              "detail": "Orient yourself: learn your cell, the yard, the exits, and the nearest guard post."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "2",
+              "detail": "Follow the routine so you never draw attention by missing roll call or a shift."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "3",
+              "detail": "Earn from a job or favor, then bank the reward instead of spending it all at once."
+            },
+            {
+              "label": "4",
+              "detail": "Build one or two reliable contacts who will vouch for you later."
+            },
+            {
+              "label": "5",
+              "detail": "Attempt a calculated shot at escape or promotion only when your resources are ready."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/komorebi-prison-tier-list",
+          "name": "Komorebi Prison Combat & Fighting Styles",
+          "description": "Ranked breakdown of the five Komorebi Prison fighting style families by how quickly a new player can get value from them.",
+          "href": "/combat/komorebi-prison-fighting-styles",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Striking — fast punishes, easy confirms, and the lowest skill floor for new fighters."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Agility and footwork — controls spacing and escapes ganks, ideal as a second style."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Grappling — ignores blocking and applies huge pressure, but slow to start."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Weapon and defensive counter — highest burst or best reads, but fragile and punishing."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/komorebi-prison-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Komorebi Prison Escape Guide",
+          "description": "The four phases of a Komorebi Prison prison escape, from scouting the perimeter to committing during a gap in attention.",
+          "href": "/guide/komorebi-prison-prison-escape",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "1",
+              "detail": "Recon: map the space, note doors, cameras, and patrol paths."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "2",
+              "detail": "Acquisition: gather the tools and information your route depends on."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "3",
+              "detail": "Conversion: combine, trade, or use tools to open a new area."
+            },
+            {
+              "label": "4",
+              "detail": "Execution: move through the opening during a gap in attention, not before."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/komorebi-prison-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Komorebi Prison Clothes & Outfits",
+          "description": "How Komorebi Prison clothes are categorised, unlocked, and customised, plus the looks the community rates highest.",
+          "href": "/items/komorebi-prison-clothes",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Uniforms",
+              "detail": "Standard issue sets that mark your role and housing block."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Unlocks",
+              "detail": "Earn clothes through jobs, tasks, events, and trading."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Custom",
+              "detail": "Layer colors and accessories to build a signature look."
+            },
+            {
+              "label": "Trading",
+              "detail": "Rare and retired outfits move through player trades."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/komorebi-prison-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Komorebi Prison Styles",
+          "description": "Komorebi Prison styles by playstyle, from roleplay-ready formals to streetwear hybrids for social lobbies.",
+          "href": "/items/komorebi-prison-styles",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Roleplay",
+              "detail": "Formal variants in muted colors read as quiet authority."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "New Look",
+              "detail": "Standard issue with one accent color is clean and easy to upgrade."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Social",
+              "detail": "Bright streetwear hybrids feel approachable in hangout lobbies."
+            },
+            {
+              "label": "Grinder",
+              "detail": "A role set matching your job signals purpose and avoids confusion."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Komorebi Prison Mechanics",
+          "description": "How Komorebi Prison prisoners, police, and escapees interact across heat, recapture, and the jail loop.",
+          "href": "/mechanics/komorebi-prison-prisoners",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Routine",
+              "detail": "Intake, roll call, work programs, and release drive every prisoner's day."
+            },
+            {
+              "label": "Heat",
+              "detail": "Wanted levels rise with each crime and decide how hard police push."
+            },
+            {
+              "label": "Jail",
+              "detail": "Arrest, bail, and the jail timer loop players back into the facility."
+            },
+            {
+              "label": "Breakout",
+              "detail": "Escapees trigger a manhunt with tracking and recapture windows."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Komorebi Prison Updates & Community",
+          "description": "Track Komorebi Prison updates, patch notes, and community discussion so a balance change never catches you off guard.",
+          "href": "/community/komorebi-prison-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patches",
+              "detail": "Small change-log entries often shift the daily routine the most."
+            },
+            {
+              "label": "Sources",
+              "detail": "Official notes tell intent; community reports show what actually landed."
+            },
+            {
+              "label": "Servers",
+              "detail": "Discord and Reddit surface codes, tips, and early bug reports."
+            },
+            {
+              "label": "Release",
+              "detail": "Verified store pages and studio posts beat anonymous leaks."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Komorebi Prison.",
+      "title": "Komorebi Prison FAQ",
+      "description": "Straight answers to the questions new Komorebi Prison players ask most.",
       "items": [
         {
           "question": "What is Komorebi Prison?",
-          "answer": "Komorebi Prison is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Komorebi Prison is a multiplayer prison sandbox where you spawn into a shared facility, follow its daily routine, take jobs, trade, and work toward an escape. Every corridor is populated by other players, so trust and timing matter as much as your loadout."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is Komorebi Prison free to play?",
+          "answer": "Komorebi Prison is a multiplayer Roblox prison game, so you can join the experience for free. Codes, events, and in-game currency are the main ways to pick up cosmetics without spending anything."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Where do I find working Komorebi Prison codes?",
+          "answer": "The in-game news panel and the developers' official community channels are the most reliable places to find Komorebi Prison codes. Always redeem a code in the main lobby, and treat any page that asks you to log in as a scam."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How do I escape in Komorebi Prison?",
+          "answer": "A Komorebi Prison escape runs through four phases: recon the doors and patrols, acquire the tools you need, convert them into access, then commit during a gap in attention. Never fight in a place you cannot leave."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "What are the best Komorebi Prison fighting styles?",
+          "answer": "Striking is the easiest entry point, with fast punishes and a low skill floor. Agility and footwork are the best second style, while grappling, weapons, and defensive counters reward more experience."
+        },
+        {
+          "question": "Do Komorebi Prison clothes affect gameplay?",
+          "answer": "No. Komorebi Prison clothes are cosmetic, but they signal your role and status to other players, which changes how they treat you in social and trading situations."
         }
       ]
     },
