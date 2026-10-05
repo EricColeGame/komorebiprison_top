@@ -19,15 +19,15 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Komorebi Prison Wiki",
+  shortName: "Komorebi Prison",
+  logoText: "KP",
+  tagline: "Gameplay Guides, PvP Tips & Prison Mechanics",
+  description: "A community resource for Komorebi Prison covering gameplay, characters, prison mechanics, story details, guides, and the latest game information.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://komorebiprison.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://komorebiprison.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://www.roblox.com/discover/?Keyword=komorebi%20prison",
+  heroVideoId: "BsQztDUlg1E", // Komorebi Prison gameplay showcase
   social: {
     discord: "https://discord.gg/roblox",
     youtube: "https://www.youtube.com/@roblox",
