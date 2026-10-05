@@ -1,1 +1,478 @@
-{}
+{
+  "site": {
+    "name": "Komorebi Prison Wiki",
+    "shortName": "Komorebi Prison",
+    "tagline": "Gameplay-Guides, PvP-Tipps & Gefängnis-Mechaniken",
+    "description": "Eine Community-Ressource zu Komorebi Prison mit Gameplay, Charakteren, Gefängnis-Mechaniken, Story-Details, Guides und den neuesten Spielinformationen.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler."
+  },
+  "nav": {
+    "home": "Startseite",
+    "menu": "Menü",
+    "toggleTheme": "Design wechseln",
+    "codes": "Codes",
+    "guide": "Guide",
+    "combat": "Kampf",
+    "items": "Items",
+    "mechanics": "Mechaniken",
+    "community": "Community"
+  },
+  "home": {
+    "meta": {
+      "title": "Komorebi Prison Wiki - Guides, Story & Gameplay",
+      "description": "Entdecke Komorebi Prison Guides, Story-Details, Charaktere, Gefängnis-Mechaniken, Gameplay-Informationen und hilfreiche Tipps in einem Community-Wiki."
+    },
+    "hero": {
+      "eyebrow": "Atmosphärisches psychologisches Gefängnisspiel",
+      "title": "Komorebi Prison Wiki",
+      "description": "Eine Community-Ressource zu Komorebi Prison mit Gameplay, Charakteren, Gefängnis-Mechaniken, Story-Details, Guides und den neuesten Spielinformationen.",
+      "stats": [
+        "Einsteiger-Guides",
+        "Gefängnisausbruch-Tipps",
+        "PvP & Kampf",
+        "Codes & Updates"
+      ],
+      "primaryCta": "Einsteiger-Guide",
+      "secondaryCta": "Ausbruchs-Guide",
+      "tertiaryCta": "Aktive Codes",
+      "videoLabel": "Gameplay-Showcase"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Guides durchsuchen",
+      "viewAll": "Alle anzeigen"
+    },
+    "start": {
+      "eyebrow": "Hier starten",
+      "title": "Deine Komorebi Prison-Reise",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Einsteiger-Guide",
+          "description": "Lerne die Kernschleife von Komorebi Prison: Spawn und Zellenzuweisung, der Tagesablauf, Jobs und Einkommen und wie du deine ersten verlässlichen Werkzeuge sicherst."
+        },
+        {
+          "number": "2",
+          "title": "Codes & Gratis-Belohnungen",
+          "description": "Erfahre, wo funktionierende Komorebi Prison Codes gepostet werden, wie du sie in der Lobby einlöst und welche Belohnungsarten du zuerst ansteuern solltest."
+        },
+        {
+          "number": "3",
+          "title": "Kampf- & PvP-Grundlagen",
+          "description": "Verstehe Abstand, Klanghinweise, Engpässe und die fünf Kampfstil-Familien, bevor du deinen ersten echten Kampf annimmst."
+        },
+        {
+          "number": "4",
+          "title": "Ausbruchsplanung",
+          "description": "Plane einen Ausbruch aus Komorebi Prison mit Aufklärung, Werkzeugen, Verkleidungen und den Zeitfenstern, die dich über den Perimeter bringen."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Gerade im Trend",
+      "quickLinks": [
+        "Einsteiger-Guide",
+        "Aktive Codes",
+        "Kampfstile",
+        "Gefängnisausbruch"
+      ],
+      "cards": [
+        {
+          "badge": "Einsteiger",
+          "title": "Einsteiger-Guide",
+          "description": "Vom ersten Appell bis zum verlässlichen Einkommen: die Kernschleife von Komorebi Prison erklärt.",
+          "href": "/guide/komorebi-prison-beginner-guide"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "Aktive Codes",
+          "description": "Wie du Komorebi Prison Codes findest, einlöst und prüfst, bevor sie ablaufen.",
+          "href": "/codes/komorebi-prison-codes"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Kampfstile",
+          "description": "Alle fünf Stil-Familien von Komorebi Prison, sortiert nach Einstiegshürde, Reichweite und Nutzen.",
+          "href": "/combat/komorebi-prison-fighting-styles"
+        },
+        {
+          "badge": "Guide",
+          "title": "Gefängnisausbruch",
+          "description": "Aufklärung, Werkzeuge, Umwandlung und Timing: die vier Phasen eines sauberen Ausbruchs.",
+          "href": "/guide/komorebi-prison-prison-escape"
+        },
+        {
+          "badge": "PvP",
+          "title": "PvP-Guide",
+          "description": "Klanghinweise, Engpässe und Trupp-Rollen, um Kämpfe in der Anstalt zu gewinnen.",
+          "href": "/guide/komorebi-prison-pvp-guide"
+        },
+        {
+          "badge": "Items",
+          "title": "Kleidung & Outfits",
+          "description": "Jede Kleidungskategorie von Komorebi Prison, Freischaltweg und Anpassungsoption.",
+          "href": "/items/komorebi-prison-clothes"
+        },
+        {
+          "badge": "Mechaniken",
+          "title": "Häftlings-Mechaniken",
+          "description": "Lebenszyklus, Bedürfnisse, Sicherheitsstufen und Arbeitsprogramme für jeden Häftling.",
+          "href": "/mechanics/komorebi-prison-prisoners"
+        },
+        {
+          "badge": "Mechaniken",
+          "title": "Polizei & Fahndung",
+          "description": "Fahndungsstufen, Verhaftungen, Kaution und wie die Gefängnisschleife wirklich funktioniert.",
+          "href": "/mechanics/komorebi-prison-police"
+        },
+        {
+          "badge": "News",
+          "title": "Updates & News",
+          "description": "Patch-Notes, Community-Berichte und vertrauenswürdige Release-Signale.",
+          "href": "/community/komorebi-prison-updates"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Komorebi Prison?",
+      "paragraphs": [
+        "Komorebi Prison ist ein Multiplayer-Gefängnis-Sandbox, in dem sich jeder Korridor mit anderen Spielern geteilt wird. Du spawnst in einer Anstalt, lernst ihren Tagesrhythmus aus Appellen, Mahlzeiten, Arbeitsschichten und Lockdowns und nutzt Jobs, Handel und Ruf, um auf das eine Ziel hinzuarbeiten, das alle teilen: einen sauberen Weg hinaus.",
+        "Die soziale Ebene macht den Unterschied. Vertrauen ist Währung, Schmuggelware bewegt sich durch Spielernetzwerke, und die Polizei- und Ausbrecher-Mechaniken halten den Druck hoch. Unser Wiki deckt die Einsteigerschleife, Kampfstile, Ausbruchsrouten, Kleidung und Stile, Gefängnis-Mechaniken und Community-Updates an einem Ort ab."
+      ],
+      "stats": [
+        {
+          "label": "Plattform",
+          "value": "Roblox"
+        },
+        {
+          "label": "Genre",
+          "value": "Gefängnis-Sandbox"
+        },
+        {
+          "label": "Spieler",
+          "value": "Multiplayer"
+        },
+        {
+          "label": "Kernschleife",
+          "value": "Arbeiten, Handeln, Ausbrechen"
+        },
+        {
+          "label": "Kampf",
+          "value": "PvP & Nahkampf"
+        },
+        {
+          "label": "Endgame",
+          "value": "Gefängnisausbruch"
+        }
+      ],
+      "cta": "Alle Guides erkunden"
+    },
+    "explore": {
+      "title": "Das Komorebi Prison Wiki erkunden",
+      "description": "Jedes Kernsystem von Komorebi Prison an einem Ort: Codes, die Einsteigerschleife, Kampfstile, Ausbruchsplanung, Kleidung und Stile, Gefängnis-Mechaniken und Community-Updates.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Komorebi Prison Codes",
+          "description": "Wo du verifizierte Komorebi Prison Codes findest, wie du sie in der Lobby einlöst und welche Belohnungsarten deine Zeit wert sind.",
+          "href": "/codes/komorebi-prison-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "BARGELD",
+              "detail": "Spielwährung wird direkt deinem Guthaben gutgeschrieben."
+            },
+            {
+              "label": "KOSMETIK",
+              "detail": "Outfits, Uniformen und Accessoires für deinen Charakter."
+            },
+            {
+              "label": "BOOSTS",
+              "detail": "Kurzzeitige Tempo-, Glücks- oder Auszahlungs-Multiplikatoren."
+            },
+            {
+              "label": "TOKENS",
+              "detail": "Event-Tokens, die in zeitlich begrenzten Shops ausgegeben werden können."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Komorebi Prison Einsteiger-Guide",
+          "description": "Ein fünfstufiger Komorebi Prison Einsteiger-Guide, der dich durch deine ersten Sitzungen führt, von der Orientierung bis zu deinem ersten kalkulierten Versuch.",
+          "href": "/guide/komorebi-prison-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Orientiere dich: lerne deine Zelle, den Hof, die Ausgänge und den nächsten Wachposten kennen."
+            },
+            {
+              "label": "2",
+              "detail": "Folge dem Ablauf, damit du nie durch einen verpassten Appell oder eine Schicht auffällst."
+            },
+            {
+              "label": "3",
+              "detail": "Verdiene mit einem Job oder Gefallen und spare die Belohnung, statt alles auf einmal auszugeben."
+            },
+            {
+              "label": "4",
+              "detail": "Baue ein oder zwei verlässliche Kontakte auf, die später für dich bürgen."
+            },
+            {
+              "label": "5",
+              "detail": "Versuche einen kalkulierten Ausbruch oder Aufstieg erst, wenn deine Ressourcen bereit sind."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Komorebi Prison Kampf & Kampfstile",
+          "description": "Ranking der fünf Kampfstil-Familien von Komorebi Prison danach, wie schnell ein neuer Spieler Nutzen daraus zieht.",
+          "href": "/combat/komorebi-prison-fighting-styles",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Schlagen — schnelle Bestrafungen, einfache Bestätigungen und die niedrigste Einstiegshürde für neue Kämpfer."
+            },
+            {
+              "label": "A",
+              "detail": "Beweglichkeit und Footwork — kontrolliert den Abstand und entkommt Ganks, ideal als zweiter Stil."
+            },
+            {
+              "label": "B",
+              "detail": "Ringen — ignoriert Blocken und übt enormen Druck aus, braucht aber lange zum Anlaufen."
+            },
+            {
+              "label": "C",
+              "detail": "Waffe und defensiver Konter — höchster Burst oder beste Reads, aber zerbrechlich und bestrafend."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Komorebi Prison Ausbruchs-Guide",
+          "description": "Die vier Phasen eines Ausbruchs aus Komorebi Prison, vom Auskundschaften des Perimeters bis zum Losschlagen in einer Aufmerksamkeitslücke.",
+          "href": "/guide/komorebi-prison-prison-escape",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Aufklärung: kartiere den Raum, notiere Türen, Kameras und Patrouillenwege."
+            },
+            {
+              "label": "2",
+              "detail": "Beschaffung: sammle die Werkzeuge und Informationen, von denen deine Route abhängt."
+            },
+            {
+              "label": "3",
+              "detail": "Umwandlung: kombiniere, handle oder nutze Werkzeuge, um einen neuen Bereich zu öffnen."
+            },
+            {
+              "label": "4",
+              "detail": "Ausführung: bewege dich während einer Aufmerksamkeitslücke durch die Öffnung, nicht vorher."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Komorebi Prison Kleidung & Outfits",
+          "description": "Wie Komorebi Prison Kleidung kategorisiert, freigeschaltet und angepasst wird, plus die Looks, die die Community am höchsten bewertet.",
+          "href": "/items/komorebi-prison-clothes",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Uniformen",
+              "detail": "Standardausgaben, die deine Rolle und deinen Trakt kennzeichnen."
+            },
+            {
+              "label": "Freischaltungen",
+              "detail": "Verdiene Kleidung durch Jobs, Aufgaben, Events und Handel."
+            },
+            {
+              "label": "Individuell",
+              "detail": "Schichte Farben und Accessoires für einen unverwechselbaren Look."
+            },
+            {
+              "label": "Handel",
+              "detail": "Seltene und ausgemusterte Outfits wandern durch Spielerhandel."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Komorebi Prison Stile",
+          "description": "Komorebi Prison Stile nach Spielweise, von rollenspieltauglicher Abendgarderobe bis zu Streetwear-Hybriden für soziale Lobbys.",
+          "href": "/items/komorebi-prison-styles",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Rollenspiel",
+              "detail": "Formelle Varianten in gedämpften Farben wirken wie leise Autorität."
+            },
+            {
+              "label": "Neuer Look",
+              "detail": "Standardausgabe mit einer Akzentfarbe ist clean und leicht aufzuwerten."
+            },
+            {
+              "label": "Sozial",
+              "detail": "Helle Streetwear-Hybride wirken in Treffpunkt-Lobbys zugänglich."
+            },
+            {
+              "label": "Grinder",
+              "detail": "Ein zu deinem Job passendes Rollenset signalisiert Zielstrebigkeit und vermeidet Verwirrung."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Komorebi Prison Mechaniken",
+          "description": "Wie Häftlinge, Polizei und Ausbrecher in Komorebi Prison über Fahndung, Wiederergreifung und die Gefängnisschleife interagieren.",
+          "href": "/mechanics/komorebi-prison-prisoners",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Tagesablauf",
+              "detail": "Aufnahme, Appell, Arbeitsprogramme und Entlassung bestimmen den Tag jedes Häftlings."
+            },
+            {
+              "label": "Fahndung",
+              "detail": "Fahndungsstufen steigen mit jedem Verbrechen und bestimmen, wie hart die Polizei vorgeht."
+            },
+            {
+              "label": "Gefängnis",
+              "detail": "Verhaftung, Kaution und der Gefängnis-Timer führen Spieler zurück in die Anstalt."
+            },
+            {
+              "label": "Ausbruch",
+              "detail": "Ausbrecher lösen eine Großfahndung mit Verfolgungs- und Wiederergreifungsfenstern aus."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Komorebi Prison Updates & Community",
+          "description": "Verfolge Komorebi Prison Updates, Patch-Notes und Community-Diskussionen, damit dich eine Balance-Änderung nie kalt erwischt.",
+          "href": "/community/komorebi-prison-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patches",
+              "detail": "Kleine Changelog-Einträge verändern den Tagesablauf oft am stärksten."
+            },
+            {
+              "label": "Quellen",
+              "detail": "Offizielle Notes nennen die Absicht; Community-Berichte zeigen, was tatsächlich ankam."
+            },
+            {
+              "label": "Server",
+              "detail": "Discord und Reddit liefern Codes, Tipps und frühe Bug-Reports."
+            },
+            {
+              "label": "Release",
+              "detail": "Verifizierte Store-Seiten und Studio-Posts schlagen anonyme Leaks."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Komorebi Prison FAQ",
+      "description": "Klare Antworten auf die Fragen, die neue Komorebi Prison Spieler am häufigsten stellen.",
+      "items": [
+        {
+          "question": "Was ist Komorebi Prison?",
+          "answer": "Komorebi Prison ist ein Multiplayer-Gefängnis-Sandbox, in dem du in einer geteilten Anstalt spawnst, ihrem Tagesablauf folgst, Jobs annimmst, handelst und auf einen Ausbruch hinarbeitest. Jeder Korridor ist mit anderen Spielern bevölkert, daher zählen Vertrauen und Timing genauso wie dein Loadout."
+        },
+        {
+          "question": "Ist Komorebi Prison kostenlos spielbar?",
+          "answer": "Komorebi Prison ist ein Multiplayer-Gefängnisspiel auf Roblox, du kannst also kostenlos beitreten. Codes, Events und Spielwährung sind die wichtigsten Wege, um ohne Ausgaben an Kosmetik zu kommen."
+        },
+        {
+          "question": "Wo finde ich funktionierende Komorebi Prison Codes?",
+          "answer": "Das In-Game-News-Panel und die offiziellen Community-Kanäle der Entwickler sind die zuverlässigsten Orte für Komorebi Prison Codes. Löse einen Code immer in der Hauptlobby ein und behandle jede Seite, die nach einem Login verlangt, als Betrug."
+        },
+        {
+          "question": "Wie entkomme ich in Komorebi Prison?",
+          "answer": "Ein Ausbruch aus Komorebi Prison läuft in vier Phasen ab: Türen und Patrouillen aufklären, benötigte Werkzeuge beschaffen, sie in Zugang umwandeln und dann während einer Aufmerksamkeitslücke losschlagen. Kämpfe nie an einem Ort, den du nicht verlassen kannst."
+        },
+        {
+          "question": "Was sind die besten Kampfstile in Komorebi Prison?",
+          "answer": "Schlagen ist der einfachste Einstieg, mit schnellen Bestrafungen und niedriger Einstiegshürde. Beweglichkeit und Footwork sind der beste zweite Stil, während Ringen, Waffen und defensive Konter mehr Erfahrung belohnen."
+        },
+        {
+          "question": "Beeinflusst Kleidung in Komorebi Prison das Gameplay?",
+          "answer": "Nein. Komorebi Prison Kleidung ist kosmetisch, aber sie signalisiert anderen Spielern deine Rolle und deinen Status, was ändert, wie sie dich in sozialen und Handels-Situationen behandeln."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, Komorebi Prison zu meistern?",
+      "description": "Von deinem ersten Tag in der Anstalt bis zum sauberen Ausbruch hält dich unser Community-Wiki mit kostenlosen, aktuellen Guides auf dem Laufenden.",
+      "primary": "Den Einsteiger-Guide lesen",
+      "secondary": "Auf Roblox spielen"
+    }
+  },
+  "codes": {
+    "overviewTitle": "Komorebi Prison Codes",
+    "overviewDescription": "Alle Komorebi Prison Codes an einem Ort: wie du sie einlöst, woher verifizierte Codes kommen und wie du einen funktionierenden von einem abgelaufenen Code unterscheidest."
+  },
+  "guide": {
+    "overviewTitle": "Komorebi Prison Guides",
+    "overviewDescription": "Komorebi Prison Guides für neue Spieler und Veteranen, mit Einsteiger-Tipps, Ausbruchsrouten, Spielstilen, Kleidung und PvP-Grundlagen."
+  },
+  "combat": {
+    "overviewTitle": "Komorebi Prison Kampf",
+    "overviewDescription": "Komorebi Prison Kampf- und PvP-Guides zu Kampfstilen, Duellen, 1v1- und 1v3-Taktiken, Timing und Überleben."
+  },
+  "items": {
+    "overviewTitle": "Komorebi Prison Items",
+    "overviewDescription": "Komorebi Prison Item- und Anpassungs-Guides zu Kleidung, Outfits, Accessoires, Stilen und Gesichtern sowie deren Freischaltung."
+  },
+  "mechanics": {
+    "overviewTitle": "Komorebi Prison Mechaniken",
+    "overviewDescription": "Komorebi Prison Mechaniken erklärt, inklusive Polizei und Fahndungsstufen, Häftlinge, Ausbrecher, Innenlayout, Verknüpfung und häufige Komplikationen."
+  },
+  "community": {
+    "overviewTitle": "Komorebi Prison Community",
+    "overviewDescription": "Der Komorebi Prison Community-Hub: Discord, Reddit, Updates, Release-News und die Events und Kultur, die die Spielerbasis prägen."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "activeCodes": "Aktive Codes",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Codes anzeigen",
+    "playOnRoblox": "Auf Roblox spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Verwandte Artikel",
+    "relatedGuides": "Verwandte Guides",
+    "readMore": "Weiterlesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Startseite",
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Komorebi Prison Wiki",
+    "about": "Komorebi Prison Wiki ist ein unabhängiger, von Fans gebauter Guide-Hub zu Gefängnis-Mechaniken, Ausbruchsrouten, PvP-Kampf, Charakteren und wichtigem Spielwissen für neue und erfahrene Spieler.",
+    "quickLinks": "Schnelllinks",
+    "guides": "Guides",
+    "legal": "Rechtliches",
+    "copyright": "© 2026 Komorebi Prison Wiki. Nicht mit dem Entwickler des Spiels oder Roblox verbunden.",
+    "description": "Atmosphärische Multiplayer-Gefängnis-Sandbox. Ausbruchsrouten, PvP-Kampf, Rollen und Progression.",
+    "playGame": "Komorebi Prison spielen",
+    "officialDiscord": "Community-Discord",
+    "officialYoutube": "YouTube",
+    "vvBuilder": "Ausbruchs-Guide",
+    "beginnerGuide": "Einsteiger-Guide",
+    "combatGuides": "Kampf-Guides",
+    "itemGuides": "Item-Guides",
+    "codesGuides": "Code-Guides",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  }
+}

@@ -1,1 +1,478 @@
-{}
+{
+  "site": {
+    "name": "Komorebi Prison Wiki",
+    "shortName": "Komorebi Prison",
+    "tagline": "ゲームプレイガイド、PvPのコツ、刑務所メカニクス",
+    "description": "Komorebi Prisonのゲームプレイ、キャラクター、刑務所メカニクス、ストーリー詳細、ガイド、最新情報を扱うコミュニティリソース。",
+    "legalNotice": "非公式ファンウィキ。プレイヤーによる、プレイヤーのためのサイトです。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマ切替",
+    "codes": "コード",
+    "guide": "ガイド",
+    "combat": "戦闘",
+    "items": "アイテム",
+    "mechanics": "メカニクス",
+    "community": "コミュニティ"
+  },
+  "home": {
+    "meta": {
+      "title": "Komorebi Prison Wiki - ガイド、ストーリー、ゲームプレイ",
+      "description": "Komorebi Prisonのガイド、ストーリー詳細、キャラクター、刑務所メカニクス、ゲームプレイ情報、役立つヒントをまとめたコミュニティウィキ。"
+    },
+    "hero": {
+      "eyebrow": "雰囲気重視の心理的刑務所ゲーム",
+      "title": "Komorebi Prison Wiki",
+      "description": "Komorebi Prisonのゲームプレイ、キャラクター、刑務所メカニクス、ストーリー詳細、ガイド、最新情報を扱うコミュニティリソース。",
+      "stats": [
+        "初心者ガイド",
+        "脱獄のコツ",
+        "PvPと戦闘",
+        "コードと更新"
+      ],
+      "primaryCta": "初心者ガイド",
+      "secondaryCta": "脱獄ガイド",
+      "tertiaryCta": "有効なコード",
+      "videoLabel": "ゲームプレイ紹介"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて表示"
+    },
+    "start": {
+      "eyebrow": "はじめに",
+      "title": "Komorebi Prisonの歩み",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "Komorebi Prisonの基本ループを学ぼう。スポーンと房の割り当て、日課、仕事と収入、そして最初の信頼できる道具を確保する方法まで。"
+        },
+        {
+          "number": "2",
+          "title": "コードと無料報酬",
+          "description": "Komorebi Prisonの有効なコードがどこに掲載されるか、ロビーでの引き換え方法、まず狙うべき報酬の種類を解説。"
+        },
+        {
+          "number": "3",
+          "title": "戦闘とPvPの基本",
+          "description": "最初の実戦の前に、間合い、音の手がかり、チョークポイント、5つの戦闘スタイル系統を理解しよう。"
+        },
+        {
+          "number": "4",
+          "title": "脱獄計画",
+          "description": "偵察、道具、変装、そして境界を越えるタイミングを駆使して、Komorebi Prisonの脱獄を計画しよう。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "いま話題の記事",
+      "quickLinks": [
+        "初心者ガイド",
+        "有効なコード",
+        "戦闘スタイル",
+        "脱獄"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "初心者ガイド",
+          "description": "最初の点呼から安定した収入まで。Komorebi Prisonの基本ループを解説。",
+          "href": "/guide/komorebi-prison-beginner-guide"
+        },
+        {
+          "badge": "更新",
+          "title": "有効なコード",
+          "description": "Komorebi Prisonのコードを期限切れ前に見つけ、引き換え、確認する方法。",
+          "href": "/codes/komorebi-prison-codes"
+        },
+        {
+          "badge": "人気",
+          "title": "戦闘スタイル",
+          "description": "Komorebi Prisonの5つのスタイル系統を、習熟度・間合い・見返りでランク付け。",
+          "href": "/combat/komorebi-prison-fighting-styles"
+        },
+        {
+          "badge": "ガイド",
+          "title": "脱獄",
+          "description": "偵察、道具、変換、タイミング。クリーンな脱獄の4段階。",
+          "href": "/guide/komorebi-prison-prison-escape"
+        },
+        {
+          "badge": "PvP",
+          "title": "PvPガイド",
+          "description": "施設内での戦いに勝つための音の手がかり、チョークポイント、分隊の役割。",
+          "href": "/guide/komorebi-prison-pvp-guide"
+        },
+        {
+          "badge": "アイテム",
+          "title": "服装とアウトフィット",
+          "description": "Komorebi Prisonの服装カテゴリ、解放ルート、カスタマイズのすべて。",
+          "href": "/items/komorebi-prison-clothes"
+        },
+        {
+          "badge": "メカニクス",
+          "title": "囚人メカニクス",
+          "description": "すべての囚人のライフサイクル、欲求、警備レベル、労働プログラム。",
+          "href": "/mechanics/komorebi-prison-prisoners"
+        },
+        {
+          "badge": "メカニクス",
+          "title": "警察とヒート",
+          "description": "手配度、逮捕、保釈、そして刑務所ループの実際の仕組み。",
+          "href": "/mechanics/komorebi-prison-police"
+        },
+        {
+          "badge": "ニュース",
+          "title": "アップデートとニュース",
+          "description": "信頼できるパッチノート、コミュニティ報告、リリース情報。",
+          "href": "/community/komorebi-prison-updates"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Komorebi Prisonとは？",
+      "paragraphs": [
+        "Komorebi Prisonは、すべての廊下を他のプレイヤーと共有するマルチプレイヤー刑務所サンドボックスだ。施設にスポーンし、点呼・食事・労働シフト・ロックダウンという日課のリズムを学び、仕事・取引・評判を使って、全員が共有する一つの目標へと進んでいく。それは、きれいに外へ出ることだ。",
+        "このゲームを際立たせているのはソーシャルな層だ。信頼は通貨であり、禁制品はプレイヤーのネットワークを通って流れ、警察と脱獄者のメカニクスが常に緊張感を生む。このウィキでは、初心者ループ、戦闘スタイル、脱獄ルート、服装とスタイル、刑務所メカニクス、コミュニティの更新を一か所で扱う。"
+      ],
+      "stats": [
+        {
+          "label": "プラットフォーム",
+          "value": "Roblox"
+        },
+        {
+          "label": "ジャンル",
+          "value": "刑務所サンドボックス"
+        },
+        {
+          "label": "プレイヤー",
+          "value": "マルチプレイヤー"
+        },
+        {
+          "label": "コアループ",
+          "value": "労働・取引・脱獄"
+        },
+        {
+          "label": "戦闘",
+          "value": "PvPと近接戦"
+        },
+        {
+          "label": "エンドゲーム",
+          "value": "脱獄"
+        }
+      ],
+      "cta": "すべてのガイドを見る"
+    },
+    "explore": {
+      "title": "Komorebi Prison Wikiを探索",
+      "description": "Komorebi Prisonの中核システムを一か所に。コード、初心者ループ、戦闘スタイル、脱獄計画、服装とスタイル、刑務所メカニクス、コミュニティ更新。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Komorebi Prison コード",
+          "description": "確認済みのKomorebi Prisonコードの入手先、ロビーでの引き換え方法、時間をかける価値のある報酬の種類。",
+          "href": "/codes/komorebi-prison-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "現金",
+              "detail": "ゲーム内通貨がそのまま残高に加算される。"
+            },
+            {
+              "label": "コスメ",
+              "detail": "キャラクター用のアウトフィット、ユニフォーム、アクセサリー。"
+            },
+            {
+              "label": "ブースト",
+              "detail": "短時間の速度・運・報酬の倍率。"
+            },
+            {
+              "label": "トークン",
+              "detail": "期間限定ショップで使えるイベントトークン。"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Komorebi Prison 初心者ガイド",
+          "description": "最初のプレイから初めての計画的な試みまでを案内する、5ステップのKomorebi Prison初心者ガイド。",
+          "href": "/guide/komorebi-prison-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "オリエンテーション：自分の房、運動場、出口、最寄りの看守詰所を把握する。"
+            },
+            {
+              "label": "2",
+              "detail": "日課に従い、点呼やシフトを欠かして注目を集めないようにする。"
+            },
+            {
+              "label": "3",
+              "detail": "仕事や善意で稼ぎ、報酬を一度に使い切らずに貯めておく。"
+            },
+            {
+              "label": "4",
+              "detail": "後であなたを保証してくれる信頼できるコネを1、2人作る。"
+            },
+            {
+              "label": "5",
+              "detail": "資源が整ってからだけ、脱獄や昇進への計画的な一手を試す。"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Komorebi Prison 戦闘と戦闘スタイル",
+          "description": "新規プレイヤーがどれだけ早く価値を引き出せるかで、Komorebi Prisonの5つの戦闘スタイル系統をランク付けして解説。",
+          "href": "/combat/komorebi-prison-fighting-styles",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "打撃 — 速い反撃、簡単な確定、新規戦闘者にとって最も低い習熟ハードル。"
+            },
+            {
+              "label": "A",
+              "detail": "敏捷とフットワーク — 間合いを管理しガンクから逃げられる。2つ目のスタイルに最適。"
+            },
+            {
+              "label": "B",
+              "detail": "グラップリング — ガードを無視して大きな圧力をかけるが、始動が遅い。"
+            },
+            {
+              "label": "C",
+              "detail": "武器と防御カウンター — 最高の爆発力か最高の読み合い。ただし脆く、失敗の代償が大きい。"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Komorebi Prison 脱獄ガイド",
+          "description": "外周の偵察から注意が逸れた隙に決行するまで、Komorebi Prisonの脱獄の4段階。",
+          "href": "/guide/komorebi-prison-prison-escape",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "偵察：空間を把握し、扉、カメラ、巡回経路を確認する。"
+            },
+            {
+              "label": "2",
+              "detail": "入手：ルートに必要な道具と情報を集める。"
+            },
+            {
+              "label": "3",
+              "detail": "変換：道具を組み合わせたり取引したりして、新しいエリアを開く。"
+            },
+            {
+              "label": "4",
+              "detail": "決行：注意が逸れた隙に動く。それより早く動かない。"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Komorebi Prison 服装とアウトフィット",
+          "description": "Komorebi Prisonの服装がどう分類され、解放され、カスタマイズされるか。コミュニティが高く評価する見た目も紹介。",
+          "href": "/items/komorebi-prison-clothes",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "ユニフォーム",
+              "detail": "役割と収容ブロックを示す標準支給の一式。"
+            },
+            {
+              "label": "解放",
+              "detail": "仕事、タスク、イベント、取引で服装を獲得する。"
+            },
+            {
+              "label": "カスタム",
+              "detail": "色とアクセサリーを重ねて自分だけの見た目を作る。"
+            },
+            {
+              "label": "取引",
+              "detail": "レアで入手終了したアウトフィットはプレイヤー間取引で流通する。"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Komorebi Prison スタイル",
+          "description": "ロールプレイ向けのフォーマルから社交ロビー向けのストリートウェアまで、プレイスタイル別のKomorebi Prisonスタイル。",
+          "href": "/items/komorebi-prison-styles",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "ロールプレイ",
+              "detail": "落ち着いた色のフォーマルは静かな威厳として映る。"
+            },
+            {
+              "label": "新ルック",
+              "detail": "標準支給にアクセントカラーを一つ足すと、すっきりして強化しやすい。"
+            },
+            {
+              "label": "社交",
+              "detail": "明るいストリートウェアは交流ロビーで親しみやすく見える。"
+            },
+            {
+              "label": "やり込み",
+              "detail": "仕事に合った役割の服装は目的意識を示し、混乱を避ける。"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Komorebi Prison メカニクス",
+          "description": "Komorebi Prisonの囚人、警察、脱獄者が、ヒート、再捕獲、刑務所ループの中でどう関わるか。",
+          "href": "/mechanics/komorebi-prison-prisoners",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "日課",
+              "detail": "収監、点呼、労働プログラム、釈放が囚人の一日を形作る。"
+            },
+            {
+              "label": "ヒート",
+              "detail": "手配度は犯罪ごとに上がり、警察の追い込みの強さを決める。"
+            },
+            {
+              "label": "刑務所",
+              "detail": "逮捕、保釈、刑務所タイマーがプレイヤーを施設へ戻す。"
+            },
+            {
+              "label": "脱獄",
+              "detail": "脱獄者は追跡と再捕獲の猶予を伴う大捜索を引き起こす。"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Komorebi Prison アップデートとコミュニティ",
+          "description": "Komorebi Prisonの更新、パッチノート、コミュニティの議論を追い、バランス変更に不意を突かれないようにしよう。",
+          "href": "/community/komorebi-prison-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "パッチ",
+              "detail": "小さな変更履歴の項目が、日課を最も大きく変えることが多い。"
+            },
+            {
+              "label": "情報源",
+              "detail": "公式ノートは意図を語り、コミュニティ報告は実際に何が起きたかを示す。"
+            },
+            {
+              "label": "サーバー",
+              "detail": "DiscordとRedditがコード、コツ、早期のバグ報告を拾い上げる。"
+            },
+            {
+              "label": "リリース",
+              "detail": "確認済みのストアページやスタジオ投稿は匿名のリークより信頼できる。"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Komorebi Prison よくある質問",
+      "description": "Komorebi Prisonの新規プレイヤーが最もよく尋ねる質問への率直な回答。",
+      "items": [
+        {
+          "question": "Komorebi Prisonとは？",
+          "answer": "Komorebi Prisonは、共有された施設にスポーンし、日課に従い、仕事をし、取引をし、脱獄を目指すマルチプレイヤー刑務所サンドボックスだ。すべての廊下に他のプレイヤーがいるため、信頼とタイミングは装備と同じくらい重要になる。"
+        },
+        {
+          "question": "Komorebi Prisonは無料で遊べる？",
+          "answer": "Komorebi PrisonはマルチプレイヤーのRoblox刑務所ゲームなので、無料で参加できる。コード、イベント、ゲーム内通貨が、お金をかけずにコスメを手に入れる主な方法だ。"
+        },
+        {
+          "question": "有効なKomorebi Prisonコードはどこで見つかる？",
+          "answer": "ゲーム内のニュースパネルと開発者の公式コミュニティチャンネルが、Komorebi Prisonコードを見つける最も信頼できる場所だ。コードは必ずメインロビーで引き換え、ログインを求めるページは詐欺として扱おう。"
+        },
+        {
+          "question": "Komorebi Prisonで脱獄するには？",
+          "answer": "Komorebi Prisonの脱獄は4段階で進む。扉と巡回を偵察し、必要な道具を入手し、それらをアクセス権に変換し、注意が逸れた隙に決行する。出られない場所では絶対に戦わないこと。"
+        },
+        {
+          "question": "Komorebi Prisonで最強の戦闘スタイルは？",
+          "answer": "打撃が最も入りやすい入門で、速い反撃と低い習熟ハードルを持つ。敏捷とフットワークが最良の2つ目のスタイルで、グラップリング、武器、防御カウンターはより多くの経験を要する。"
+        },
+        {
+          "question": "Komorebi Prisonの服装はゲームプレイに影響する？",
+          "answer": "いいえ。Komorebi Prisonの服装は見た目だけだが、他のプレイヤーにあなたの役割と立場を示し、社交や取引の場での扱われ方を変える。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Komorebi Prisonを極める準備はできた？",
+      "description": "施設での初日からきれいな脱獄まで、無料で最新のガイドを揃えたコミュニティウィキが支える。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "Robloxでプレイ"
+    }
+  },
+  "codes": {
+    "overviewTitle": "Komorebi Prison コード",
+    "overviewDescription": "Komorebi Prisonのコードを一か所に。引き換え方法、確認済みコードの入手元、有効なコードと期限切れコードの見分け方。"
+  },
+  "guide": {
+    "overviewTitle": "Komorebi Prison ガイド",
+    "overviewDescription": "新規プレイヤーとベテラン向けのKomorebi Prisonガイド。初心者のコツ、脱獄ルート、プレイスタイル、服装、PvPの基礎を網羅。"
+  },
+  "combat": {
+    "overviewTitle": "Komorebi Prison 戦闘",
+    "overviewDescription": "戦闘スタイル、決闘、1v1と1v3の戦術、タイミング、生存を扱うKomorebi Prisonの戦闘・PvPガイド。"
+  },
+  "items": {
+    "overviewTitle": "Komorebi Prison アイテム",
+    "overviewDescription": "服装、アウトフィット、アクセサリー、スタイル、フェイスとその解放方法を扱うKomorebi Prisonのアイテム・カスタマイズガイド。"
+  },
+  "mechanics": {
+    "overviewTitle": "Komorebi Prison メカニクス",
+    "overviewDescription": "警察と手配度、囚人、脱獄者、施設内レイアウト、連携、よくある問題など、Komorebi Prisonのメカニクスを解説。"
+  },
+  "community": {
+    "overviewTitle": "Komorebi Prison コミュニティ",
+    "overviewDescription": "Komorebi Prisonのコミュニティハブ。Discord、Reddit、更新、リリース情報、プレイヤー層を形作るイベントと文化。"
+  },
+  "shared": {
+    "wikiNavigation": "ウィキナビゲーション",
+    "activeCodes": "有効なコード",
+    "updated": "更新",
+    "viewAllCodes": "すべてのコードを見る",
+    "playOnRoblox": "Robloxでプレイ",
+    "inThisSection": "このセクション",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "お困りですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "まだガイドがありません。近日公開予定です。"
+  },
+  "footer": {
+    "aboutTitle": "Komorebi Prison Wiki",
+    "about": "Komorebi Prison Wikiは、刑務所メカニクス、脱獄ルート、PvP戦闘、キャラクター、そして新規・ベテランプレイヤーに必要なゲーム知識を扱う、独立したファン制作のガイドハブです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法務",
+    "copyright": "© 2026 Komorebi Prison Wiki. ゲームの開発元およびRobloxとは提携していません。",
+    "description": "雰囲気重視のマルチプレイヤー刑務所サンドボックス。脱獄ルート、PvP戦闘、役割、成長。",
+    "playGame": "Komorebi Prisonをプレイ",
+    "officialDiscord": "コミュニティDiscord",
+    "officialYoutube": "YouTube",
+    "vvBuilder": "脱獄ガイド",
+    "beginnerGuide": "初心者ガイド",
+    "combatGuides": "戦闘ガイド",
+    "itemGuides": "アイテムガイド",
+    "codesGuides": "コードガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  }
+}
