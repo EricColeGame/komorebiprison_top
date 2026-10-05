@@ -1,0 +1,114 @@
+export const metadata = {
+  title: "Complications de Komorebi Prison : guide complet pour corriger les problèmes de mécaniques courants",
+  description: "Résolvez les complications les plus courantes de Komorebi Prison grâce à des solutions pratiques, des étapes de diagnostic et des conseils de prévention issus de l'expérience des joueurs.",
+  category: "mechanics",
+  date: "2026-10-06",
+}
+
+## Pourquoi les complications de Komorebi Prison sont importantes
+
+Peu de choses font dérailler une partie plus vite que des mécaniques qui refusent de coopérer. Les complications de Komorebi Prison ont tendance à se manifester au pire moment possible — en pleine séquence, après une longue préparation, ou juste au moment où un système finit enfin par s'éclaircir — et comme plusieurs d'entre elles se ressemblent presque à l'identique en surface, les joueurs cherchent souvent la mauvaise solution pendant des heures avant de trouver la vraie cause.
+
+La plupart des complications de Komorebi Prison se répartissent en quelques familles : les conflits de saisie et de timing, les états qui persistent entre les tentatives, les retours d'information flous ou absents, et les effets cumulés qui n'apparaissent que lorsque deux systèmes ou plus se chevauchent. Une fois que vous parvenez à classer un symptôme dans la bonne famille, la solution correcte devient généralement évidente.
+
+Ce guide passe en revue les schémas les plus souvent signalés par les joueurs, une routine de diagnostic que vous pouvez exécuter en quelques minutes, et les habitudes qui empêchent les problèmes de revenir.
+
+## Les complications de Komorebi Prison les plus fréquemment signalées
+
+Les signalements de la communauté se regroupent autour d'un petit ensemble de problèmes récurrents. Le tableau ci-dessous les classe par symptôme, par déclencheur le plus souvent mis en cause par les joueurs, et par première solution à essayer. Considérez la colonne de fréquence comme une impression approximative issue des joueurs plutôt qu'une statistique mesurée.
+
+| Complication | Ce que vous remarquez | Déclencheur probable | Première solution à essayer | Fréquence signalée |
+| --- | --- | --- | --- | --- |
+| Perte de commande | Une commande s'enregistre en retard ou pas du tout | Action mise en file d'attente derrière une animation inachevée | Attendre la fin complète de la fenêtre de récupération avant de ressaisir | Très fréquent |
+| État bloqué | Un état ou un compteur se reporte sur la tentative suivante | Relance ou chargement pendant une séquence active | Revenir à un point de contrôle propre au lieu de réessayer sur place | Très fréquent |
+| Minuteries qui se chevauchent | Deux effets se résolvent dans la même fenêtre | Bonus, malus ou effets de statut cumulés | Séparer les activations d'au moins un temps | Fréquent |
+| Retour d'information incohérent | L'écran suggère une réussite, mais le résultat diffère | Un effet visuel qui persiste au-delà de la vraie hitbox | Surveillez l'indicateur d'état, pas l'animation | Fréquent |
+| Blocage de progression | Un objectif refuse de se valider | Chaîne d'objectifs dépendante de l'ordre | Refaire l'étape préalable dans l'ordre prévu | Occasionnel |
+| Saccade de performance | Chutes de framerate pendant les moments chargés | Processus en arrière-plan ou réglages visuels lourds | Réduire le réglage visuel le plus lourd et retester | Occasionnel |
+
+Chaque entrée ci-dessus revient régulièrement dans les fils de discussion sur l'expérience des joueurs, et la plupart se résolvent avec la première solution indiquée. Si ce n'est pas le cas, passez à la routine de diagnostic plutôt que de répéter la même tentative en espérant un résultat différent.
+
+### Pourquoi un même symptôme a des causes différentes
+
+Deux joueurs peuvent décrire « l'action ne sort pas » et parler de choses complètement différentes. L'un se bat contre un tampon de saisie ; l'autre se bat contre un indicateur d'état laissé par une tentative précédente. C'est pourquoi les conseils génériques fonctionnent rarement pour les complications de Komorebi Prison.
+
+Avant de changer quoi que ce soit, posez-vous une question : le problème survit-il à une réinitialisation complète ? S'il disparaît après un redémarrage propre, vous avez affaire à une persistance d'état. S'il revient immédiatement et de façon systématique, vous avez affaire à un problème de timing ou d'interaction.
+
+## Une routine de diagnostic étape par étape pour les complications de Komorebi Prison
+
+Plutôt que de modifier cinq réglages d'un coup, isolez une variable à la fois. La routine ci-dessous est conçue pour être suivie dans l'ordre, et chaque étape ne devrait prendre qu'une minute ou deux.
+
+| Étape | Action | Ce que vous testez | Si cela n'aide pas |
+| --- | --- | --- | --- |
+| 1 | Redémarrer depuis un point de contrôle propre | Si le problème est persistant ou contextuel | Passez à l'étape 2 |
+| 2 | Répéter exactement la même séquence trois fois | Si l'échec est constant ou intermittent | Passez à l'étape 3 |
+| 3 | Modifier uniquement votre timing de saisie | Si vous heurtez une fenêtre de récupération | Passez à l'étape 4 |
+| 4 | Retirer un effet ou un bonus actif | Si le cumul est le déclencheur | Passez à l'étape 5 |
+| 5 | Réduire le réglage visuel le plus lourd | Si la performance affecte la réactivité | Passez à l'étape 6 |
+| 6 | Capturer un court enregistrement de l'échec | Si vous pouvez identifier l'image exacte de la divergence | Signalez avec preuves |
+
+Enregistrer l'échec est l'étape que la plupart des joueurs sautent, et c'est généralement celle qui résout le mystère. Regarder un replay à vitesse réduite révèle souvent que la saisie est arrivée une fraction de seconde trop tôt, ou qu'un indicateur a changé avant l'animation.
+
+### Isoler les problèmes de saisie des problèmes d'état
+
+Un test simple permet de distinguer les deux : effectuez l'action dans une zone vide et sans pression, où rien d'autre n'est actif. Si cela fonctionne là-bas mais échoue au milieu d'une séquence chargée, le problème est environnemental ou lié au timing. Si cela échoue partout, le problème est probablement lié à l'état de progression ou à un indicateur persistant.
+
+Tenez un court journal écrit. Deux ou trois lignes par tentative — ce que vous avez fait, ce qui s'est passé, ce qui a changé — suffisent pour repérer un schéma en quelques essais. Les joueurs qui consignent systématiquement leurs tentatives affirment résoudre les complications de Komorebi Prison bien plus rapidement que ceux qui se fient uniquement à leur mémoire.
+
+## Prévenir les complications de Komorebi Prison avant qu'elles n'apparaissent
+
+La prévention repose principalement sur des habitudes, pas sur des réglages. Les comportements ci-dessous ne coûtent presque rien et éliminent une part surprenante des problèmes récurrents.
+
+| Habitude | Pourquoi cela aide | Quand l'appliquer |
+| --- | --- | --- |
+| Sauvegarder ou créer un point de contrôle avant les séquences risquées | Vous donne un état propre auquel revenir | Avant tout objectif chronométré ou enchaîné |
+| Terminer un système avant d'en commencer un autre | Évite les minuteries qui se chevauchent et les états conflictuels | Pendant toute phase d'apprentissage |
+| Garder les réglages visuels stables pendant le dépannage | Élimine la performance comme variable | Chaque fois que vous testez une solution |
+| Fermer les applications en arrière-plan avant les longues sessions | Réduit les pics de temps de frame dans les moments chargés | Avant une session de jeu prolongée |
+| Noter les conditions exactes d'un échec | Transforme une plainte vague en un rapport reproductible | Chaque fois que quelque chose casse |
+| Retester après chaque changement | Confirme quelle solution a réellement fonctionné | Immédiatement après avoir ajusté quoi que ce soit |
+
+L'habitude la plus sous-estimée de cette liste est la dernière. Changer trois choses à la fois et obtenir un bon résultat ne vous apprend rien — vous ne savez toujours pas quel changement a compté, et le problème peut revenir plus tard sous une forme légèrement différente.
+
+### Garder votre configuration cohérente
+
+La cohérence est le héros discret du dépannage. Si vous jouez avec des réglages différents, des périphériques de saisie différents ou une configuration d'affichage différente à chaque session, vous introduisez constamment de nouvelles variables. Choisissez une configuration de référence, notez-la, et ne vous en écartez que lorsque vous testez délibérément quelque chose.
+
+Cela compte davantage pour les complications de Komorebi Prison que pour la plupart des jeux, car beaucoup d'entre elles sont sensibles au timing. Un petit changement de réactivité peut faire passer une saisie de « juste à temps » à « juste en retard », et l'échec qui en résulte ressemble à un bug alors qu'il s'agit en réalité d'un changement de configuration.
+
+## Quand réinitialiser, recharger ou signaler un bug
+
+Tous les problèmes ne méritent pas la même réponse. Utilisez l'échelle d'escalade ci-dessous pour décider combien d'efforts un échec mérite.
+
+| Niveau d'escalade | Signal | Action recommandée |
+| --- | --- | --- |
+| Réinitialisation | Le problème est apparu une fois et ne s'est jamais reproduit | Continuez à jouer ; notez-le et passez à autre chose |
+| Rechargement | Le problème se répète au même endroit | Revenez à un point de contrôle propre et refaites la séquence |
+| Reconfiguration | Le problème vous suit dans différentes séquences | Modifiez un réglage, puis retestez |
+| Réinstallation ou vérification des fichiers | Le problème persiste à travers les redémarrages et les réglages | Vérifiez votre installation via le client de la plateforme |
+| Signalement | Le problème est reproductible avec des étapes claires | Soumettez un rapport avec un enregistrement et vos étapes exactes |
+
+Si vous atteignez l'étape du signalement, incluez la séquence que vous avez effectuée, le point de contrôle depuis lequel vous êtes parti, vos réglages et un court clip. Les rapports vagues suscitent rarement une action, mais un rapport reproductible avec un horodatage est réellement utile. Pour les vérifications générales côté plateforme, comme la vérification d'une installation, [le centre de dépannage officiel de Steam Support](https://help.steampowered.com/) est un point de départ fiable.
+
+### Ce qui rend un rapport réellement utile
+
+Un bon rapport répond à quatre questions : qu'attendiez-vous, que s'est-il passé à la place, à quelle fréquence cela se produit-il, et quelles étapes permettent de le reproduire ? Tout ce qui va au-delà — détails matériels, durée de session, effets actifs — est un bonus qui aide à cerner la cause.
+
+Gardez des attentes réalistes. Certaines complications de Komorebi Prison sont de véritables défauts que seul un patch peut corriger ; d'autres sont des particularités de conception qui nécessitent simplement un contournement. Distinguer les deux vous évite d'attendre une correction qui n'arrivera jamais.
+
+## FAQ
+
+**Quelles sont les complications les plus courantes de Komorebi Prison ?**
+Les signalements des joueurs décrivent le plus souvent des pertes de commande, des états qui se reportent entre les tentatives, des minuteries d'effets qui se chevauchent et des retours visuels qui ne correspondent pas au résultat réel. La plupart de ces problèmes remontent à des fenêtres de timing ou à un état résiduel plutôt qu'au matériel.
+
+**Les complications de Komorebi Prison disparaissent-elles d'elles-mêmes ?**
+Rarement. Les problèmes liés à un état résiduel disparaissent généralement après un redémarrage complet depuis un point de contrôle propre, mais les problèmes de timing et d'interaction ont tendance à persister jusqu'à ce que vous changiez la façon ou le moment où vous effectuez l'action.
+
+**Dois-je réinstaller le jeu pour résoudre ces problèmes ?**
+Pas en première étape. La réinstallation se situe près du bas de l'échelle d'escalade. Commencez par les réinitialisations, les nouvelles tentatives, les modifications d'un seul réglage et la vérification des fichiers — la réinstallation aide rarement lorsque la cause sous-jacente est liée au timing.
+
+**Comment signaler correctement une complication de Komorebi Prison ?**
+Capturez un court enregistrement, notez la séquence et le point de contrôle exacts, listez vos réglages et décrivez la fréquence du problème. Un rapport reproductible avec des étapes claires attire bien plus l'attention qu'une description générale du problème.
+
+**Ces problèmes sont-ils plus graves sur du matériel d'entrée de gamme ?**
+Parfois. Les saccades de performance peuvent rendre les fenêtres de timing plus difficiles à atteindre de manière cohérente, ce qui donne l'impression que certaines complications de Komorebi Prison sont plus fréquentes. Réduire le réglage visuel le plus lourd est un moyen rapide de vérifier si la performance fait partie de la cause.

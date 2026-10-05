@@ -9,7 +9,13 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "codes": "Codes",
+    "guide": "Guide",
+    "combat": "Combat",
+    "items": "Items",
+    "mechanics": "Mechanics",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -409,7 +415,30 @@
       "secondary": "Play on Roblox"
     }
   },
-  "bosses": {},
+  "codes": {
+    "overviewTitle": "Komorebi Prison Codes",
+    "overviewDescription": "All Komorebi Prison codes in one place: how to redeem them, where verified codes come from, and how to tell a working code from an expired one."
+  },
+  "guide": {
+    "overviewTitle": "Komorebi Prison Guides",
+    "overviewDescription": "Komorebi Prison guides for new players and veterans, covering beginner tips, escape routes, play styles, clothes, and PvP fundamentals."
+  },
+  "combat": {
+    "overviewTitle": "Komorebi Prison Combat",
+    "overviewDescription": "Komorebi Prison combat and PvP guides covering fighting styles, duels, 1v1 and 1v3 tactics, timing, and survival."
+  },
+  "items": {
+    "overviewTitle": "Komorebi Prison Items",
+    "overviewDescription": "Komorebi Prison items and customization guides covering clothes, outfits, accessories, styles, and faces, plus how to unlock each one."
+  },
+  "mechanics": {
+    "overviewTitle": "Komorebi Prison Mechanics",
+    "overviewDescription": "Komorebi Prison mechanics explained, including police and wanted levels, prisoners, escapees, interior layout, interlink, and common complications."
+  },
+  "community": {
+    "overviewTitle": "Komorebi Prison Community",
+    "overviewDescription": "The Komorebi Prison community hub: Discord, Reddit, updates, release news, and the events and culture that shape the player base."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -440,9 +469,9 @@
     "officialYoutube": "YouTube",
     "vvBuilder": "Prison Escape Guide",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "combatGuides": "Combat Guides",
+    "itemGuides": "Item Guides",
+    "codesGuides": "Code Guides",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

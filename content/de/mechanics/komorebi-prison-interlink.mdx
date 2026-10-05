@@ -1,0 +1,120 @@
+export const metadata = {
+  title: "Komorebi Prison Interlink erklärt: Kernmechaniken, Timing und Routenplanung",
+  description: "Eine praktische Analyse des Komorebi Prison Interlink — wie das Verknüpfen funktioniert, wann man sich festlegen sollte und welche Routing-Fehler Runs still und leise ruinieren.",
+  category: "mechanics",
+  date: "2026-10-06",
+}
+
+Der Komorebi Prison Interlink ist die Mechanik, die still und leise darüber entscheidet, ob ein Run zum Selbstläufer wird oder ins Stocken gerät. Machst du es falsch, verbringst du den Rest der Session damit, ein Layout zu flicken, das du nicht mehr reparieren kannst; machst du es richtig, beginnt die Anlage mit dir statt gegen dich zu arbeiten. Dieser Guide erklärt, wie sich der Komorebi Prison Interlink verhält, wann es sicher ist, sich auf eine Verknüpfung festzulegen, und welche Routing-Gewohnheiten saubere Clears von chaotischen trennen.
+
+## Was der Komorebi Prison Interlink tatsächlich bewirkt
+
+Im Kern ist der Interlink eine Regel zur gemeinsamen Nutzung von Zuständen. Zwei Punkte in der Anlage — ein Zellenblock und ein Kontrollraum, ein Treppenhaus und ein Generator, eine versiegelte Tür und das Panel, das sie steuert — können aneinander gebunden werden, sodass Änderungen an einem Ende auf das andere durchschlagen. Die meisten Spieler begegnen ihm früh und halten ihn für einen besonders schicken Schlüssel. Das ist er nicht. Der Interlink verhält sich eher wie ein Vertrag: Sobald du ihn unterzeichnest, sind beide Seiten verpflichtet.
+
+Drei Eigenschaften leisten die Hauptarbeit, und ihr Verständnis ist es, was die Mechanik von verwirrend zu vorhersehbar macht.
+
+- **Direktionalität.** Verknüpfungen fließen in eine Richtung, sofern das Spiel nicht ausdrücklich etwas anderes signalisiert. Die Reihenfolge der Operationen umzukehren, führt nicht zum selben Ergebnis.
+- **Persistenz.** Eine Verknüpfung übersteht das Verlassen des Raums, eine hastig unter Druck gelegte Verbindung kann dir also für den Rest des Runs folgen.
+- **Propagation.** Was auch immer die gekoppelten Knoten teilen — Strom, Zugang, Lärm, Aufmerksamkeit — wandert entlang der Verbindung, statt lokal zu bleiben.
+
+| Interlink-Eigenschaft | Was du im Spiel siehst | Warum es fürs Routing wichtig ist |
+|---|---|---|
+| Gerichteter Fluss | Der zweite Knoten reagiert; der erste bleibt reglos | Du musst entscheiden, welche Seite zur Quelle wird, bevor du irgendetwas berührst |
+| Persistenter Zustand | Effekte bleiben über Raumwechsel hinweg erhalten | Frühe Fehler summieren sich, und es gibt selten einen sanften Reset |
+| Propagation | Änderungen wandern entlang der Verbindung | „Sichere“ isolierte Räume sind nicht mehr isoliert, sobald sie verknüpft werden |
+| Umkehrbarkeit | Manche Verknüpfungen lassen sich rückgängig machen, andere nicht | Bestätige den Typ, bevor du deine Route darauf festlegst |
+
+## Die Anlage lesen, bevor du dich festlegst
+
+Erfahrene Spieler verbringen die ersten Minuten eines Runs damit, gar nichts anzufassen. Berichte aus der Community beschreiben immer wieder dieselbe Gewohnheit: den Umfang ablaufen, notieren, welche Knoten bereits aktiv sind, welche tot sind und welche irgendwo anders ein sichtbares Gegenstück haben. Der Komorebi Prison Interlink belohnt Beobachtung weit mehr als Geschwindigkeit.
+
+Behandle den ersten Durchgang als Aufklärung. Du suchst Paare, keine Lösungen. Ein Knoten, der von selbst aufleuchtet, sagt dir, dass ihn bereits etwas speist. Ein Knoten, der dunkel bleibt, während sein Nachbar pulsiert, wartet fast immer auf eine Quelle.
+
+| Signal | Typisches Erscheinungsbild | Empfohlene Deutung |
+|---|---|---|
+| Gleichmäßiges Leuchten | Knoten hält einen konstanten Zustand | Sicherer Anker für eine erste Verknüpfung |
+| Flackern | Knoten schaltet sich an und aus | Timing-abhängig; warte erst einen vollen Zyklus ab |
+| Toter Knoten | Keine Reaktion auf Interaktion | Meist nachgelagert, wartet auf eine Quelle |
+| Gespiegeltes Paar | Zwei identische Knoten in gegenüberliegenden Räumen | Starker Kandidat für ein zweiseitiges Setup |
+| Einzelner Knoten | Nirgends ein sichtbares Gegenstück | Oft ein Köder oder ein spätes Run-Unlock |
+
+Wenn du neu in diesem Stil des Puzzle-Horror-Designs bist, hilft es, zu untersuchen, wie andere Spiele Zustandsänderungen an den Spieler kommunizieren. Der [Guides-Hub von PC Gamer](https://www.pcgamer.com/guides/) deckt viel davon ab und liefert nützlichen Kontext für das Lesen von Umgebungshinweisen.
+
+## Ein wiederholbarer Workflow für den Komorebi Prison Interlink
+
+Die Spieler, die konstant clearen, sind nicht schneller — sie sind geordneter. Die folgende Abfolge funktioniert unabhängig davon, in welchem Flügel du startest, und sie skaliert mit, während sich die Anlage öffnet.
+
+1. **Erst kartieren, dann verknüpfen.** Laufe die gesamte zugängliche Schleife einmal ab, ohne irgendetwas zu berühren.
+2. **Die Quelle identifizieren.** Finde den Knoten, der bereits aktiv ist, oder den mit dem klarsten Gegenstück.
+3. **Günstig testen.** Nutze die billigste verfügbare Interaktion, um zu sehen, wie das Paar reagiert.
+4. **Propagation bestätigen.** Vergewissere dich, dass der Effekt tatsächlich gewandert ist, statt es anzunehmen.
+5. **Festlegen und notieren.** Halte fest, was du verknüpft hast und in welche Richtung, besonders bei einer langen Session.
+6. **Nach jedem Übergang erneut prüfen.** Übergänge sind der Ort, an dem versteckte Zustandsänderungen typischerweise auftauchen.
+
+| Schritt | Ziel | Häufiger Fehler |
+|---|---|---|
+| Kartieren | Ein mentales Layout aufbauen | Mit dem ersten Knoten interagieren, den man sieht |
+| Quelle identifizieren | Richtung festlegen | Raten und rückwärts verknüpfen |
+| Günstig testen | Ohne Kosten lernen | Eine begrenzte Ressource für einen Test ausgeben |
+| Bestätigen | Propagation verifizieren | Annehmen, die Verknüpfung habe funktioniert, weil sie ein Geräusch gemacht hat |
+| Notieren | Informationen bewahren | Eine vor zwanzig Minuten gelegte Verknüpfung vergessen |
+| Erneut prüfen | Versteckte Änderungen erwischen | Einem Layout vertrauen, das man am Anfang kartiert hat |
+
+## Timing-Fenster und Commitment-Punkte
+
+Nicht jeder Moment in einem Run ist gleich gut zum Verknüpfen geeignet. Der Komorebi Prison Interlink ist früh am nachsichtigsten, wenn du noch Raum zur Korrektur hast, und am wenigsten nachsichtig auf der Zielgeraden, wenn eine falsche Verknüpfung dich vom benötigten Pfad aussperren kann.
+
+| Run-Phase | Interlink-Priorität | Risikoniveau | Hinweise |
+|---|---|---|---|
+| Erster Durchlauf | Niedrig | Niedrig | Nur Informationen sammeln |
+| Erstes Commitment | Hoch | Niedrig | Bestes Fenster zum Experimentieren |
+| Expansion in der Mitte | Mittel | Mittel | Verknüpfungen beginnen, miteinander zu interagieren |
+| Späte Konsolidierung | Niedrig | Hoch | Nur verknüpfen, was du vollständig verstehst |
+| Endgame | Minimal | Sehr hoch | Behandle jede neue Verknüpfung als potenziell run-beendend |
+
+Die praktische Erkenntnis ist einfach: Verlege dein Experimentieren nach vorne. Eine Verknüpfung, die du in den ersten Minuten legst, kostet dich fast nichts, falls sie sich als falsch erweist. Dieselbe Verknüpfung kurz vor Schluss kann einen ansonsten sauberen Run zunichtemachen.
+
+## Fehler, die den Komorebi Prison Interlink kaputt machen
+
+Die meisten gescheiterten Runs entstehen nicht durch eine einzelne katastrophale Entscheidung. Sie entstehen durch eine Handvoll kleiner, wiederholbarer Fehler, die sich summieren.
+
+| Fehler | Symptom | Lösung |
+|---|---|---|
+| Verknüpfungen zu schnell aneinanderreihen | Das Layout wird unlesbar | Innehalten und nach jeder zweiten Verknüpfung neu kartieren |
+| Vom falschen Ende aus verknüpfen | Nichts passiert, oder das Falsche passiert | Immer zuerst den Quellknoten bestätigen |
+| Den Rückweg ignorieren | Du kommst rein, aber nicht mehr raus | Die Route rückwärts nachvollziehen, bevor du dich festlegst |
+| Verknüpfungen als permanent behandeln | Du vermeidest nützliche Optionen aus Angst | Lernen, welche Verknüpfungen rückgängig gemacht werden können |
+| Over-Linking | Alles ist mit allem verbunden | Mindestens einen sauberen, unverknüpften Korridor freihalten |
+
+Over-Linking verdient besondere Aufmerksamkeit. Wenn zu viele Knoten denselben Zustand teilen, wird das Feedback aus jeder einzelnen Interaktion trüb, und du verlierst die Fähigkeit, über Ursache und Wirkung zu schlussfolgern. Geübte Spieler lassen Teile der Anlage bewusst unberührt, damit sie immer einen sauberen Referenzpunkt haben.
+
+## Community-Berichte und Spielererfahrungen
+
+Die Spielererfahrung mit dem Komorebi Prison Interlink variiert stärker als bei den meisten Mechaniken, vor allem weil sich das Layout der Anlage zwischen Runs verschiebt. Dennoch tauchen in Community-Diskussionen ein paar Themen immer wieder auf.
+
+- **Langsam ist schnell.** Spieler, die sich selbst als methodisch beschreiben, berichten fast immer von weniger Sackgassen-Runs als Spieler, die hetzen.
+- **Richtung schlägt Geschwindigkeit.** Zu wissen, welcher Knoten welchen speist, ist wichtiger, als Knoten schnell zu erreichen.
+- **Notizen helfen.** Selbst eine grobe schriftliche Aufzeichnung von Verknüpfungen zahlt sich in längeren Sessions aus.
+- **Nach Updates erneut testen.** Community-Berichte legen nahe, dass sich Feinheiten im Knotenverhalten zwischen Versionen ändern können, sodass auf einem Patch aufgebaute Gewohnheiten möglicherweise überarbeitet werden müssen.
+- **Ein sauberer Korridor.** Eine einzelne unverknüpfte Route als Notausgang freizuhalten, ist eine weit verbreitete Praxis.
+
+Da diese Beobachtungen aus Spielererfahrung statt aus offizieller Dokumentation stammen, behandle sie als starke Heuristiken und nicht als feste Regeln. Verifiziere alles Wichtige im eigenen Run, bevor du eine Route darauf aufbaust.
+
+## FAQ
+
+**Was ist der Komorebi Prison Interlink in einfachen Worten?**
+Es ist eine Verbindung zur gemeinsamen Nutzung von Zuständen zwischen zwei Punkten in der Anlage. Was auch immer an einem Ende passiert, pflanzt sich zum anderen fort, und die Verbindung bleibt bestehen, nachdem du den Raum verlassen hast. Sieh es als einen Vertrag zwischen zwei Knoten statt als einfachen Schlüssel.
+
+**Kann man eine Verknüpfung rückgängig machen, sobald sie gemacht wurde?**
+Manche lassen sich umkehren, manche nicht. Der sicherste Ansatz ist, zuerst mit der billigsten verfügbaren Interaktion zu testen und jede Verknüpfung, die du nicht vollständig verstehst, als permanent zu behandeln, bis das Gegenteil bewiesen ist.
+
+**Warum ändert sich mein Layout manchmal zwischen Runs?**
+Die Layouts der Anlage scheinen sich zu verschieben, weshalb das Auswendiglernen einer einzigen Route selten funktioniert. Lerne die zugrunde liegenden Regeln des Komorebi Prison Interlink, statt eine Abfolge auswendig zu lernen, und du wirst dich schneller anpassen, wenn sich das Layout ändert.
+
+**Ist es besser, früh oder spät in einem Run zu verknüpfen?**
+Früh, fast immer. Die Anfangsphase gibt dir Raum zum Experimentieren und zum Erholen von Fehlern, während Verknüpfungen spät im Run deutlich mehr Risiko bergen, weil weniger Zeit bleibt, um eine falsche Verbindung zu korrigieren.
+
+**Muss ich alles verknüpfen, um abzuschließen?**
+Nein. Einige Knoten unverknüpft zu lassen, ist eine legitime Strategie. Ein unberührter Korridor gibt dir einen sauberen Referenzpunkt und eine zuverlässige Fluchtroute, wenn sich eine Verknüpfung unerwartet verhält.
+
+Den Komorebi Prison Interlink zu meistern, geht weniger darum, ein Layout auswendig zu lernen, als darum, eine Gewohnheit aufzubauen: erst schauen, dann verknüpfen, dann bestätigen. Spieler, die diese Reihenfolge verinnerlichen, beschreiben die Mechanik tendenziell eher als elegant denn als unfair — und dieser Wandel in der Wahrnehmung ist meist der Moment, in dem ein Run anfängt, gut zu laufen.

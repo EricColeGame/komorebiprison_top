@@ -1,0 +1,120 @@
+export const metadata = {
+  title: "L'interconnexion de Komorebi Prison expliquée : mécaniques de base, timing et planification d'itinéraire",
+  description: "Une analyse pratique de l'interconnexion de Komorebi Prison — comment fonctionne la liaison, quand s'engager, et les erreurs de routage qui plombent discrètement vos runs.",
+  category: "mechanics",
+  date: "2026-10-06",
+}
+
+L'interconnexion de Komorebi Prison est la mécanique qui décide discrètement si une run prend son envol ou s'enlise. Si vous vous trompez, vous passez le reste de la session à rafistoler un agencement que vous ne pouvez plus réparer ; si vous la maîtrisez, l'établissement commence à travailler avec vous plutôt que contre vous. Ce guide détaille le comportement de l'interconnexion de Komorebi Prison, quand il est sûr de s'engager dans une liaison, et les habitudes de routage qui séparent les victoires propres des runs chaotiques.
+
+## Ce que fait réellement l'interconnexion de Komorebi Prison
+
+À la base, l'interconnexion est une règle de partage d'état. Deux points de l'établissement — un bloc de cellules et une salle de contrôle, une cage d'escalier et un générateur, une porte scellée et le panneau qui la contrôle — peuvent être liés de sorte que les changements de l'un se répercutent sur l'autre. La plupart des joueurs la rencontrent tôt et pensent qu'il s'agit juste d'une clé améliorée. Ce n'est pas le cas. L'interconnexion se comporte plutôt comme un contrat : une fois signé, les deux parties sont engagées.
+
+Trois propriétés font l'essentiel du travail, et c'est leur compréhension qui fait passer la mécanique de déroutante à prévisible.
+
+- **Directionnalité.** Les liaisons circulent dans un seul sens, sauf si le jeu signale explicitement le contraire. Inverser l'ordre des opérations ne produit pas le même résultat.
+- **Persistance.** Une liaison survit au fait de quitter la pièce, donc une liaison précipitée faite sous pression peut vous suivre pendant le reste de la run.
+- **Propagation.** Tout ce que les nœuds appariés partagent — énergie, accès, bruit, attention — voyage le long de la connexion au lieu de rester local.
+
+| Propriété de l'interconnexion | Ce que vous observez en jeu | Pourquoi c'est important pour le routage |
+|---|---|---|
+| Flux directionnel | Le second nœud réagit ; le premier reste inerte | Vous devez décider quel côté devient la source avant de toucher à quoi que ce soit |
+| État persistant | Les effets persistent à travers les transitions de pièce | Les erreurs précoces s'accumulent, et il y a rarement une réinitialisation douce |
+| Propagation | Les changements voyagent le long de la liaison | Les pièces isolées « sûres » cessent de l'être dès qu'elles sont liées |
+| Réversibilité | Certaines liaisons peuvent être annulées, d'autres non | Confirmez le type avant d'y engager votre itinéraire |
+
+## Lire l'établissement avant de s'engager
+
+Les joueurs expérimentés passent les premières minutes d'une run sans rien toucher du tout. Les rapports de la communauté décrivent sans cesse la même habitude : faire le tour du périmètre, noter quels nœuds sont déjà actifs, lesquels sont morts, et lesquels ont une contrepartie visible ailleurs. L'interconnexion de Komorebi Prison récompense bien plus l'observation que la vitesse.
+
+Considérez le premier passage comme une reconnaissance. Vous cherchez des paires, pas des solutions. Un nœud qui s'allume tout seul vous dit que quelque chose l'alimente déjà. Un nœud qui reste éteint pendant que son voisin pulse attend presque toujours une source.
+
+| Signal | Apparence typique | Lecture recommandée |
+|---|---|---|
+| Lueur stable | Le nœud conserve un état constant | Ancre sûre pour une première liaison |
+| Scintillement | Le nœud s'allume et s'éteint en cycle | Dépend du timing ; attendez d'abord un cycle complet |
+| Nœud mort | Aucune réponse à l'interaction | Généralement en aval, en attente d'une source |
+| Paire en miroir | Deux nœuds identiques dans des pièces opposées | Bon candidat pour une configuration bidirectionnelle |
+| Nœud isolé | Aucune contrepartie visible nulle part | Souvent un leurre ou un déblocage de fin de run |
+
+Si vous débutez avec ce style de puzzle-horror, il est utile d'étudier comment d'autres jeux annoncent les changements d'état au joueur. [le hub de guides de PC Gamer](https://www.pcgamer.com/guides/) couvre une grande partie de ces bases et donne un contexte utile pour lire les indices environnementaux.
+
+## Une méthode de travail reproductible pour l'interconnexion de Komorebi Prison
+
+Les joueurs qui réussissent régulièrement ne sont pas plus rapides — ils sont plus méthodiques. La séquence suivante fonctionne quel que soit l'aile par laquelle vous commencez, et elle s'adapte à mesure que l'établissement s'ouvre.
+
+1. **Cartographiez avant de lier.** Parcourez une fois toute la boucle accessible sans interagir avec quoi que ce soit.
+2. **Identifiez la source.** Trouvez le nœud déjà actif ou celui dont la contrepartie est la plus claire.
+3. **Testez à moindre coût.** Utilisez l'interaction la moins coûteuse disponible pour voir comment la paire réagit.
+4. **Confirmez la propagation.** Vérifiez que l'effet a réellement voyagé, au lieu de le supposer.
+5. **Engagez-vous et notez.** Notez ce que vous avez lié et dans quel sens, surtout si vous jouez une longue session.
+6. **Revérifiez après chaque transition.** C'est lors des transitions que les changements d'état cachés ont tendance à apparaître.
+
+| Étape | Objectif | Échec courant |
+|---|---|---|
+| Cartographier | Construire un agencement mental | Interagir avec le premier nœud que vous voyez |
+| Identifier la source | Établir la direction | Deviner et lier dans le mauvais sens |
+| Tester à moindre coût | Apprendre sans coût | Dépenser une ressource limitée pour un test |
+| Confirmer | Vérifier la propagation | Supposer que la liaison a fonctionné parce qu'elle a émis un son |
+| Noter | Conserver l'information | Oublier une liaison faite vingt minutes plus tôt |
+| Revérifier | Repérer les changements cachés | Faire confiance à un agencement cartographié au début |
+
+## Fenêtres de timing et points d'engagement
+
+Tous les moments d'une run ne se valent pas pour établir une liaison. L'interconnexion de Komorebi Prison est plus indulgente au début, quand vous avez encore de la marge pour corriger, et moins indulgente dans la dernière ligne droite, quand une mauvaise liaison peut vous bloquer l'accès au chemin dont vous avez besoin.
+
+| Phase de la run | Priorité de l'interconnexion | Niveau de risque | Notes |
+|---|---|---|---|
+| Balayage d'ouverture | Faible | Faible | Rassembler uniquement des informations |
+| Premier engagement | Élevée | Faible | Meilleure fenêtre pour expérimenter |
+| Expansion en milieu de run | Moyenne | Moyen | Les liaisons commencent à interagir entre elles |
+| Consolidation tardive | Faible | Élevé | Ne liez que ce que vous comprenez parfaitement |
+| Fin de partie | Minimale | Très élevé | Considérez chaque nouvelle liaison comme potentiellement fatale à la run |
+
+À retenir en pratique : concentrez votre expérimentation au début. Une liaison faite dans les premières minutes ne vous coûte presque rien si elle s'avère mauvaise. La même liaison faite vers la fin peut ruiner une run par ailleurs propre.
+
+## Les erreurs qui brisent l'interconnexion de Komorebi Prison
+
+La plupart des runs échouées ne sont pas causées par une seule décision catastrophique. Elles sont causées par une poignée de petites erreurs répétables qui s'accumulent.
+
+| Erreur | Symptôme | Correctif |
+|---|---|---|
+| Enchaîner les liaisons trop vite | L'agencement devient illisible | Faites une pause et refaites la cartographie après chaque deuxième liaison |
+| Lier depuis le mauvais bout | Rien ne se passe, ou la mauvaise chose se produit | Confirmez toujours d'abord le nœud source |
+| Ignorer le chemin de retour | Vous entrez mais ne pouvez plus sortir | Tracez l'itinéraire à l'envers avant de vous engager |
+| Traiter les liaisons comme permanentes | Vous évitez des options utiles par peur | Apprenez quelles liaisons peuvent être annulées |
+| Sur-liaison | Tout est connecté à tout | Gardez au moins un couloir propre et non lié |
+
+La sur-liaison mérite une attention particulière. Quand trop de nœuds partagent un état, le retour que vous obtenez de chaque interaction devient trouble, et vous perdez la capacité de raisonner en termes de cause et d'effet. Les joueurs habiles laissent délibérément certaines parties de l'établissement intactes pour toujours disposer d'un point de référence clair.
+
+## Rapports de la communauté et expérience des joueurs
+
+L'expérience des joueurs avec l'interconnexion de Komorebi Prison varie plus que pour la plupart des mécaniques, en grande partie parce que l'agencement de l'établissement change entre les runs. Néanmoins, quelques thèmes reviennent régulièrement dans les discussions de la communauté.
+
+- **Lent, c'est rapide.** Les joueurs qui se décrivent comme méthodiques rapportent presque toujours moins de runs dans une impasse que ceux qui foncent.
+- **La direction bat la vitesse.** Savoir quel nœud alimente quel autre compte plus que d'atteindre les nœuds rapidement.
+- **Les notes aident.** Même un relevé écrit approximatif des liaisons est rentable lors des longues sessions.
+- **Retestez après les mises à jour.** Les rapports de la communauté suggèrent que certains détails fins du comportement des nœuds peuvent changer entre les versions, donc les habitudes acquises sur un patch peuvent devoir être revues.
+- **Un couloir propre.** Garder un seul itinéraire non lié comme échappatoire est une pratique largement partagée.
+
+Comme ces observations proviennent de l'expérience des joueurs plutôt que d'une documentation officielle, traitez-les comme de solides heuristiques plutôt que comme des règles fixes. Vérifiez tout élément important dans votre propre run avant de construire un itinéraire autour.
+
+## FAQ
+
+**Qu'est-ce que l'interconnexion de Komorebi Prison en termes simples ?**
+C'est une connexion de partage d'état entre deux points de l'établissement. Tout ce qui se produit à une extrémité se propage à l'autre, et la connexion persiste après que vous quittez la pièce. Voyez-la comme un contrat entre deux nœuds plutôt qu'une simple clé.
+
+**Peut-on annuler une liaison une fois qu'elle est faite ?**
+Certaines peuvent être inversées et d'autres non. L'approche la plus sûre consiste à tester d'abord avec l'interaction la moins coûteuse disponible, et à considérer toute liaison que vous ne comprenez pas parfaitement comme permanente jusqu'à preuve du contraire.
+
+**Pourquoi mon agencement change-t-il parfois entre les runs ?**
+Les agencements de l'établissement semblent changer, c'est pourquoi mémoriser un seul itinéraire fonctionne rarement. Apprenez les règles sous-jacentes de l'interconnexion de Komorebi Prison au lieu de mémoriser une séquence, et vous vous adapterez plus vite quand l'agencement change.
+
+**Vaut-il mieux lier tôt ou tard dans une run ?**
+Tôt, presque toujours. La phase d'ouverture vous laisse de la marge pour expérimenter et vous remettre de vos erreurs, tandis que les liaisons de fin de run comportent bien plus de risque car il reste moins de temps pour corriger une mauvaise connexion.
+
+**Dois-je tout lier pour terminer ?**
+Non. Laisser certains nœuds non liés est une stratégie légitime. Un couloir intact vous donne un point de référence clair et une voie d'échappement fiable quand une liaison se comporte de façon inattendue.
+
+Maîtriser l'interconnexion de Komorebi Prison consiste moins à mémoriser un agencement qu'à acquérir une habitude : observez d'abord, liez ensuite, confirmez en troisième. Les joueurs qui intègrent cet ordre ont tendance à décrire la mécanique comme élégante plutôt qu'injuste — et ce changement de perception correspond généralement au moment où une run commence à bien se passer.

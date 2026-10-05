@@ -1,0 +1,115 @@
+export const metadata = {
+  title: "Mécaniques de la police de la prison de Komorebi expliquées : niveaux de recherche, arrestations et tactiques d'évasion",
+  description: "Une analyse complète du système policier de la prison de Komorebi — comment les niveaux de recherche s'intensifient, comment fonctionnent les arrestations, et les tactiques qui vous évitent les menottes.",
+  category: "mechanics",
+  date: "2026-10-06",
+}
+
+Se faire attraper dans la prison de Komorebi n'est pas la fin d'une partie — c'est une mécanique, et comme toute autre mécanique du jeu, elle peut être apprise, appâtée et surmontée. Le système policier de la prison de Komorebi décide quand vous êtes repéré, avec quelle intensité les agents vous poursuivent, et ce qui se passe une fois les menottes passées, ce qui en fait le système le plus important à comprendre avant de planifier une évasion. Une fois que vous savez comment la police de la prison de Komorebi réagit à chaque étape d'une évasion, vous arrêtez de deviner et commencez à emprunter des itinéraires qui fonctionnent vraiment.
+
+Ce guide décompose le système en ses parties : détection, escalade, détention et récupération. Pas de chiffres inventés, pas d'astuces magiques — juste les schémas de comportement qui reviennent sans cesse dans l'expérience des joueurs et les rapports de la communauté.
+
+## Comment fonctionne la mécanique de la police de la prison de Komorebi
+
+La police de la prison de Komorebi n'est pas un simple agent doté d'un script de poursuite. C'est un système à plusieurs couches : détection, escalade et détention. Chaque couche a ses propres règles, et chacune peut être interrompue avant de passer à la suivante. Comprendre ce passage de relais, c'est tout l'enjeu.
+
+La plupart des nouveaux joueurs traitent les agents comme un mur — quelque chose que l'on franchit ou non. Les joueurs expérimentés les traitent comme une horloge. Chaque agent qui vous remarque lance un minuteur, et votre travail consiste à être ailleurs avant qu'il ne s'écoule. Si vous pouvez briser la chaîne entre les couches, vous n'atteignez jamais la couche de détention.
+
+### Les trois étapes d'une réaction policière
+
+| Étape | Ce qui la déclenche | Ce que font les agents | Contre-mesure du joueur |
+|---|---|---|---|
+| Soupçon | Zone restreinte, flânerie après le couvre-feu, accroupissement près d'un poste de garde | Se tournent vers vous, font quelques pas, interpellent | Briser la ligne de vue, retourner dans une zone publique, agir normalement |
+| Poursuite | Contrebande vue, une agression, une cellule ouverte, une brèche dans la clôture | Sprintent, crient et coordonnent avec les unités proches | Prendre les angles, utiliser les portes, se séparer des coéquipiers |
+| Confinement | Alarme d'évasion, arme dégainée, agents à terre | La densité de patrouilles augmente, les portes se scellent, les équipes de recherche ratissent les pièces | Se cacher et attendre la fin du minuteur, ou s'engager pleinement dans l'évasion |
+
+Le détail important est que ces étapes ne se réinitialisent pas instantanément. Sortir du champ de vision met fin à la *poursuite*, mais les agents qui vous ont vu restent en alerte un moment après. C'est cette alerte persistante qui piège la plupart des joueurs — ils se cachent avec succès, puis retournent directement dans le même couloir trente secondes plus tard.
+
+## Niveaux de recherche et « heat » : lire le compteur
+
+La police de la prison de Komorebi fonctionne selon un modèle d'escalade que la plupart des joueurs appellent le « heat ». Ce n'est pas une barre visible dans toutes les versions, mais le comportement est suffisamment cohérent pour être lu. Plus votre heat est élevé, plus d'agents vous recherchent activement, et moins leur détection est indulgente.
+
+| Palier de heat | Comportement typique | Est-ce que ça diminue ? | Meilleure réaction |
+|---|---|---|---|
+| Clair | Aucun agent ne vous suit | — | Farmer, fabriquer, repérer librement |
+| Tiède | Un agent vous observe, les patrouilles s'élargissent légèrement | Oui, lentement | Marcher, ne jamais sprinter, éviter les zones restreintes |
+| Chaud | Une escouade traque activement votre dernière position connue | Lentement, et uniquement hors de vue | Briser la ligne de vue, changer d'étage, abandonner la contrebande |
+| Confiné | Chaque agent fouille ; les sorties sont surveillées | Non, jusqu'à la résolution de l'alarme | Se cacher complètement ou s'engager dans l'évasion |
+
+Une règle pratique qui tient dans la plupart des sessions : le heat diminue en fonction du *temps hors de vue*, pas de la distance parcourue. Courir à travers la carte en étant visible ne vous apporte rien. Rester immobile derrière un mur pendant le même laps de temps vous apporte tout.
+
+Les valeurs exactes de diminution sont ajustées différemment selon les hôtes de serveur et les versions du jeu, alors considérez le tableau ci-dessus comme un comportement plutôt qu'un calcul. Si vous voulez connaître le timing spécifique de votre serveur, parcourez le même itinéraire deux fois — une fois en se cachant immédiatement, une fois en courant — et comparez la vitesse à laquelle les agents reprennent leurs patrouilles normales.
+
+## Arrestation, caution et la boucle de la prison
+
+Se faire attraper dans la prison de Komorebi est un résultat gradué, pas binaire. Ce que vous perdez dépend de l'endroit où vous avez été attrapé et de ce que vous transportiez au moment des faits.
+
+| Résultat | Déclencheur | Ce que vous perdez | Comment récupérer |
+|---|---|---|---|
+| Escorte retour | Intrusion mineure, pas de contrebande | Rien | Revenez et essayez un autre itinéraire |
+| Arrestation standard | Pris dans une zone restreinte avec de la contrebande | Objets transportés | Re-fabriquer depuis votre cache |
+| Détention complète | Tentative d'évasion, armes ou agression | La majeure partie de votre inventaire, minuteur plus long | L'équipe peut vous faire passer en contrebande ou vous libérer |
+| Sécurité maximale | Infractions répétées dans une même session | Tout ce qui est transporté, minuteur le plus long | Attendez la fin, puis planifiez une approche différente |
+
+### Pourquoi le minuteur de prison n'est pas vraiment une punition
+
+Les rapports de la communauté décrivent systématiquement la détention comme une *fenêtre de réinitialisation* plutôt qu'une perte. Votre heat se vide, les agents reprennent leurs patrouilles normales, et l'attention de la carte se déplace ailleurs. Les équipes qui utilisent bien cette fenêtre envoient un joueur libre planquer du matériel près de la sortie pendant que le joueur capturé attend la fin du minuteur.
+
+L'astuce contre-intuitive : si vous allez vous faire attraper de toute façon, faites-vous attraper *tôt et discrètement*. Une arrestation propre coûte bien moins qu'une poursuite qui se termine par un confinement, et un confinement est bien plus difficile à contourner pour vos coéquipiers.
+
+## Ligne de vue, couverture et les règles que suivent les agents
+
+La police de la prison de Komorebi n'a pas une perception parfaite. Elle détecte ce qu'elle peut voir, et ce qu'elle peut voir est régi par des règles assez cohérentes.
+
+| Type de couverture | Bloque la vue ? | Bloque la poursuite ? | Notes |
+|---|---|---|---|
+| Mur plein ou porte fermée | Oui | Oui | Meilleure option ; l'état de la porte compte plus que vous ne le pensez |
+| Caisse basse ou comptoir | Partiellement | Non | S'accroupir derrière et bouger quand la patrouille se retourne |
+| Coin sombre | Partiellement | Non | Fiable uniquement avant que les agents soient alertés |
+| Foule ou zone commune | Non | Faible | Les agents poursuivent rarement dans les pièces publiques sans raison |
+
+Trois règles qui comptent plus que n'importe quelle cachette :
+
+- **Sprinter, c'est un phare.** La vitesse de déplacement attire l'attention à distance. Marchez dès que vous êtes près d'une patrouille.
+- **Les portes réinitialisent la poursuite, pas le soupçon.** Fermer une porte brise la course, mais l'agent sait toujours approximativement où vous êtes allé.
+- **Le mouvement vertical bat le mouvement horizontal.** Changer d'étage brise le pistage bien plus fiablement que courir dans un long couloir.
+
+La lignée de conception ici vaut la peine d'être connue si vous voulez prédire les comportements. L'escalade policière par paliers — soupçon, poursuite, puis un confinement strict — est une convention popularisée par les jeux de crime en monde ouvert, et les [systèmes de niveaux de recherche de la série Grand Theft Auto](https://en.wikipedia.org/wiki/Grand_Theft_Auto_(series)) en sont l'exemple documenté le plus clair de la façon dont ces paliers sont généralement calibrés.
+
+## Rôles d'équipe : battre la police de la prison de Komorebi en jeu d'escouade
+
+Les évasions en solo sont possibles, mais le système policier de la prison de Komorebi est conçu pour punir les coureurs solitaires. Une escouade coordonnée divise l'attention du système, et l'attention est la ressource pour laquelle vous vous battez réellement.
+
+| Rôle | Tâche | Compétence clé |
+|---|---|---|
+| Éclaireur | Cartographie le timing des patrouilles et la couverture des caméras | Patience ; ne transporte jamais de contrebande |
+| Coureur | Déplace les outils et les clés vers le point de brèche | Mémoire des itinéraires |
+| Distracteur | Attire délibérément les agents à l'autre bout de la carte | Accepter volontairement un confinement |
+| Contrebandier | Déplace les objets à travers les points de contrôle par petites charges | Discipline d'inventaire |
+| Guetteur | Surveille les paliers de heat et annonce le moment de bouger | Communication |
+
+Le rôle de distracteur est celui que la plupart des groupes négligent, et c'est celui qui fait gagner les parties. Un joueur prêt à encaisser une arrestation standard peut ouvrir une fenêtre de deux minutes pour tous les autres — ce qui est généralement plus qu'assez de temps pour franchir une clôture.
+
+## Erreurs courantes qui font attraper les joueurs
+
+- **Traiter « hors de vue » comme « en sécurité ».** Les agents restent en alerte après vous avoir perdu. Attendez que les patrouilles se réinitialisent vraiment.
+- **Tout transporter en même temps.** Si une seule arrestation peut mettre fin à votre partie, vous transportez trop.
+- **Emprunter le même itinéraire deux fois.** Les brèches répétées sont exactement ce qui fait grimper la densité de patrouilles.
+- **Combattre les agents.** Cela transforme une arrestation standard en confinement et généralement en résultat de sécurité maximale.
+- **Ignorer le minuteur d'alarme.** Les confinements se résolvent selon une horloge ; se cacher pendant toute la durée est souvent plus rapide que d'essayer de s'échapper en pleine recherche.
+- **Laisser les portes ouvertes derrière soi.** Une porte restreinte ouverte est une invitation gratuite pour qu'une patrouille vérifie la pièce.
+- **Se séparer sans point de ralliement.** Se regrouper après une poursuite est une mécanique à part entière, et elle nécessite un plan.
+
+## FAQ sur la police de la prison de Komorebi
+
+**Qu'est-ce qui déclenche réellement la poursuite de la police de la prison de Komorebi ?**
+Une infraction au règlement constatée, pas la proximité. Se tenir près d'un agent est acceptable ; être vu avec de la contrebande, dans une zone restreinte ou près d'une brèche ouverte ne l'est pas. La détection repose sur ce qu'un agent peut voir à cet instant.
+
+**Peut-on semer la police une fois la poursuite lancée ?**
+Généralement pas en ligne droite. Ce qui fonctionne, c'est briser la ligne de vue — angles, portes, cages d'escalier et changements d'étage. Les agents convergent vers votre dernière position connue, donc la distance compte moins que disparaître.
+
+**Comment perdre son heat le plus vite ?**
+Sortez du champ de vision et restez-y. Le heat diminue avec le temps hors de vue, donc se cacher dans une pièce sans issue pendant un court moment vaut mieux que sprinter à travers la carte en étant visible.
+
+**Est-il parfois préférable de simplement se faire arrêter ?**
+Oui. Une arrestation précoce et discrète coûte peu et vide votre heat, alors qu'une poursuite ratée peut déclencher un confinement qui piège toute votre escouade. Les arrestations volontaires sont une tactique légitime, pas un échec.

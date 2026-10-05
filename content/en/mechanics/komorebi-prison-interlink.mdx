@@ -1,0 +1,120 @@
+export const metadata = {
+  title: "Komorebi Prison Interlink Explained: Core Mechanics, Timing, and Route Planning",
+  description: "A practical breakdown of the Komorebi Prison interlink — how linking works, when to commit, and the routing mistakes that quietly cost runs.",
+  category: "mechanics",
+  date: "2026-10-06",
+}
+
+The Komorebi Prison interlink is the mechanic that quietly decides whether a run snowballs or stalls out. Get it wrong and you spend the rest of the session patching a layout you can no longer repair; get it right and the facility starts working with you instead of against you. This guide breaks down how the Komorebi Prison interlink behaves, when it is safe to commit to a link, and the routing habits that separate clean clears from messy ones.
+
+## What the Komorebi Prison Interlink Actually Does
+
+At its core, the interlink is a state-sharing rule. Two points in the facility — a cell block and a control room, a stairwell and a generator, a sealed door and the panel that governs it — can be bound together so that changes in one ripple into the other. Most players meet it early and assume it is just a fancy key. It is not. The interlink behaves more like a contract: once you sign it, both sides are obligated.
+
+Three properties do most of the work, and understanding them is what turns the mechanic from confusing into predictable.
+
+- **Directionality.** Links flow one way unless the game explicitly signals otherwise. Reversing the order of operations does not produce the same result.
+- **Persistence.** A link survives leaving the room, so a hasty link made under pressure can follow you for the rest of the run.
+- **Propagation.** Whatever the paired nodes share — power, access, noise, attention — travels along the connection instead of staying local.
+
+| Interlink property | What you see in play | Why it matters for routing |
+|---|---|---|
+| Directional flow | The second node reacts; the first stays inert | You must decide which side becomes the source before touching anything |
+| Persistent state | Effects carry across room transitions | Early mistakes compound, and there is rarely a soft reset |
+| Propagation | Changes travel along the link | "Safe" isolated rooms stop being isolated the moment they are linked |
+| Reversibility | Some links can be undone, others cannot | Confirm the type before committing your route to it |
+
+## Reading the Facility Before You Commit
+
+Experienced players spend the opening minutes of a run not touching anything at all. Community reports describe the same habit over and over: walk the perimeter, note which nodes are already active, which are dead, and which have a visible counterpart somewhere else. The Komorebi Prison interlink rewards observation far more than it rewards speed.
+
+Treat the first pass as reconnaissance. You are looking for pairs, not solutions. A node that lights up on its own is telling you something is already feeding it. A node that stays dark while its neighbor pulses is almost always waiting for a source.
+
+| Signal | Typical appearance | Recommended read |
+|---|---|---|
+| Steady glow | Node holds a constant state | Safe anchor for a first link |
+| Flicker | Node cycles on and off | Timing-dependent; wait out a full cycle first |
+| Dead node | No response to interaction | Usually downstream, waiting on a source |
+| Mirrored pair | Two identical nodes in opposing rooms | Strong candidate for a two-way setup |
+| Lone node | No visible counterpart anywhere | Often a decoy or a late-run unlock |
+
+If you are new to this style of puzzle-horror design, it helps to study how other games telegraph state changes to the player. [PC Gamer's guides hub](https://www.pcgamer.com/guides/) covers a lot of that ground and gives useful context for reading environmental cues.
+
+## A Repeatable Workflow for the Komorebi Prison Interlink
+
+The players who clear consistently are not faster — they are more orderly. The following sequence works regardless of which wing you start in, and it scales as the facility opens up.
+
+1. **Map before you link.** Walk the full accessible loop once without interacting with anything.
+2. **Identify the source.** Find the node that is already active or the one with the clearest counterpart.
+3. **Test cheaply.** Use the least expensive interaction available to see how the pair responds.
+4. **Confirm propagation.** Verify that the effect actually traveled, rather than assuming it did.
+5. **Commit and record.** Note what you linked and in which direction, especially if you are playing a long session.
+6. **Re-check after every transition.** Transitions are where hidden state changes tend to appear.
+
+| Step | Goal | Common failure |
+|---|---|---|
+| Map | Build a mental layout | Interacting with the first node you see |
+| Identify source | Establish direction | Guessing and linking backward |
+| Test cheaply | Learn without cost | Spending a limited resource on a test |
+| Confirm | Verify propagation | Assuming the link worked because it made a sound |
+| Record | Preserve information | Forgetting a link made twenty minutes earlier |
+| Re-check | Catch hidden changes | Trusting a layout you mapped at the start |
+
+## Timing Windows and Commitment Points
+
+Not every moment in a run is equally good for linking. The Komorebi Prison interlink is most forgiving early, when you still have room to correct, and least forgiving during the final stretch, when a wrong link can lock you out of the path you need.
+
+| Run phase | Interlink priority | Risk level | Notes |
+|---|---|---|---|
+| Opening sweep | Low | Low | Gather information only |
+| First commit | High | Low | Best window to experiment |
+| Mid-run expansion | Medium | Medium | Links start interacting with each other |
+| Late consolidation | Low | High | Only link what you fully understand |
+| Endgame | Minimal | Very high | Treat every new link as potentially run-ending |
+
+The practical takeaway is simple: front-load your experimentation. A link you make in the first few minutes costs you almost nothing if it turns out to be wrong. The same link made near the end can undo an otherwise clean run.
+
+## Mistakes That Break the Komorebi Prison Interlink
+
+Most failed runs are not caused by a single catastrophic decision. They are caused by a handful of small, repeatable errors that stack up.
+
+| Mistake | Symptom | Fix |
+|---|---|---|
+| Chaining links too fast | Layout becomes unreadable | Pause and re-map after every second link |
+| Linking from the wrong end | Nothing happens, or the wrong thing does | Always confirm the source node first |
+| Ignoring the return path | You get in but cannot get out | Trace the route backward before committing |
+| Treating links as permanent | You avoid useful options out of fear | Learn which links can be undone |
+| Over-linking | Everything is connected to everything | Keep at least one clean, unlinked corridor |
+
+Over-linking deserves special attention. When too many nodes share state, the feedback you get from any single interaction becomes muddy, and you lose the ability to reason about cause and effect. Skilled players deliberately leave parts of the facility untouched so they always have a clean reference point.
+
+## Community Reports and Player Experience
+
+Player experience with the Komorebi Prison interlink varies more than with most mechanics, largely because the facility layout shifts between runs. Still, a few themes come up consistently in community discussions.
+
+- **Slow is fast.** Players who describe themselves as methodical almost always report fewer dead-end runs than players who rush.
+- **Direction beats speed.** Knowing which node feeds which matters more than reaching nodes quickly.
+- **Notes help.** Even a rough written record of links pays off in longer sessions.
+- **Re-test after updates.** Community reports suggest that fine details of node behavior can shift between versions, so habits built on one patch may need revisiting.
+- **One clean corridor.** Keeping a single unlinked route as an escape hatch is a widely shared practice.
+
+Because these observations come from player experience rather than official documentation, treat them as strong heuristics rather than fixed rules. Verify anything important in your own run before building a route around it.
+
+## FAQ
+
+**What is the Komorebi Prison interlink in simple terms?**
+It is a state-sharing connection between two points in the facility. Whatever happens at one end propagates to the other, and the connection persists after you leave the room. Think of it as a contract between two nodes rather than a simple key.
+
+**Can you undo a link once it is made?**
+Some can be reversed and some cannot. The safest approach is to test with the cheapest available interaction first, and to treat any link you do not fully understand as permanent until proven otherwise.
+
+**Why does my layout sometimes change between runs?**
+Facility layouts appear to shift, which is why memorizing a single route rarely works. Learn the underlying rules of the Komorebi Prison interlink instead of memorizing a sequence, and you will adapt faster when the layout changes.
+
+**Is it better to link early or late in a run?**
+Early, almost always. The opening phase gives you room to experiment and recover from mistakes, while late-run links carry far more risk because there is less time to correct a wrong connection.
+
+**Do I need to link everything to finish?**
+No. Leaving some nodes unlinked is a legitimate strategy. An untouched corridor gives you a clean reference point and a reliable escape route when a link behaves unexpectedly.
+
+Mastering the Komorebi Prison interlink is less about memorizing a layout and more about building a habit: look first, link second, confirm third. Players who internalize that order tend to describe the mechanic as elegant rather than unfair — and that shift in perception is usually the moment a run starts going well.
