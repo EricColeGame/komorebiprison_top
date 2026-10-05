@@ -25,12 +25,12 @@ export const siteConfig: SiteConfig = {
   tagline: "Gameplay Guides, PvP Tips & Prison Mechanics",
   description: "A community resource for Komorebi Prison covering gameplay, characters, prison mechanics, story details, guides, and the latest game information.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://komorebiprison.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://komorebiprison.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@komorebiprison.top",
   gameUrl: "https://www.roblox.com/discover/?Keyword=komorebi%20prison",
   heroVideoId: "BsQztDUlg1E", // Komorebi Prison gameplay showcase
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    discord: "https://discord.com/",
+    youtube: "https://www.youtube.com/@cccceiwo",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
